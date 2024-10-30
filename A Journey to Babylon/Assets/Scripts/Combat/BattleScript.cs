@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class BattleScript : MonoBehaviour
 {
-    [Header("Important")]
     BattleDetails Battle;
     [SerializeField] GameObject AlliesContainer;
     [SerializeField] GameObject EnemiesContainer;
@@ -16,6 +15,9 @@ public class BattleScript : MonoBehaviour
     public GameObject Player;
     public List<MobsInformation> Allies;
     public List<MobsInformation> Enemies;
+
+    [Header("Battle Layout")]
+    public List<BattleLayer> BattleQueue;
 
     public void Start()
     {
@@ -51,13 +53,14 @@ public class BattleScript : MonoBehaviour
     //I don't think I'm even suppose to make a allied system
     //but like EVERY single JRPG has one
     //so might as wlel do it
-    //So this'll have to do
+    //may the code gods forgive me, this'll have to do
     void AddPlayer()
     {
         Vector3 ModifiedPosition = AlliesContainer.transform.position;
-        ModifiedPosition.y += ContainerSize;
+        if(Allies.Count > 0) ModifiedPosition.y += ContainerSize;
         Instantiate(Player, ModifiedPosition, transform.rotation, AlliesContainer.transform);
-
+        
+        if(Allies.Count <= 0) return;
 
         float AddContain = ContainerSize/Allies.Count;
         ModifiedPosition = AlliesContainer.transform.position;
@@ -65,4 +68,60 @@ public class BattleScript : MonoBehaviour
         AlliesContainer.transform.position = ModifiedPosition;
 
     }
+    
+    //Useable Scripts
+    public void AddAction(BattleLayer Layer)
+    {
+        BattleQueue.Add(Layer);
+    }
+    public void EndTurn()
+    {
+        if(BattleQueue.Count <= 0)
+        {
+           return; 
+        }
+        //look for person who casted
+        GameObject PersonCast;
+        GameObject PersonHit;
+        Transform TempPerson;
+        for(int I = 0; I < BattleQueue.Count; I++)
+        {
+            if(BattleQueue[I].PersonCasting[0] == 0)
+            {
+                TempPerson = AlliesContainer.transform.GetChild(BattleQueue[I].PersonCasting[1]);
+                PersonCast = TempPerson.gameObject;
+            }
+            else
+            {
+                TempPerson = EnemiesContainer.transform.GetChild(BattleQueue[I].PersonCasting[1]);
+                PersonCast = TempPerson.gameObject;
+            }
+
+            if(BattleQueue[I].PersonAffected[0] == 0)
+            {
+                TempPerson = AlliesContainer.transform.GetChild(BattleQueue[I].PersonAffected[1]);
+                PersonHit = TempPerson.gameObject;
+            }
+            else
+            {
+                TempPerson = EnemiesContainer.transform.GetChild(BattleQueue[I].PersonAffected[1]);
+                PersonHit = TempPerson.gameObject;
+            }
+
+            Stats CastStat = PersonCast.GetComponent<Stats>();
+            Stats HitStat = PersonHit.GetComponent<Stats>();
+
+            HitStat.Damage(CastStat.Attack);
+ 
+        }
+   }
+}
+
+[System.Serializable]
+public class BattleLayer
+{
+    public string Type;
+    public string ID;
+    public Vector2Int PersonAffected;
+    public Vector2Int PersonCasting;
 }

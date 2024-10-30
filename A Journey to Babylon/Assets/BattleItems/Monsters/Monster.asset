@@ -15,6 +15,6 @@ MonoBehaviour:
   Appearence: {fileID: 1307829460100681405, guid: 0607d777257189d4ea516f96a4c76f9a, type: 3}
   Animator: {fileID: 0}
   MaxHealth: 2
-  MagicStones: 0
-  AttackDamage: 0
+  MagicStones: 4
+  AttackDamage: 5
   Moves: []

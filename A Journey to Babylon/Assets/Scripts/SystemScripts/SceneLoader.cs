@@ -6,6 +6,7 @@ public class SceneLoader : MonoBehaviour
 {
     private static SceneLoader instance;
     public BattleDetails Battle;
+    [SerializeField] GameObject QuitMenu;
     public void Awake()
     {
         if (instance == null)
@@ -28,6 +29,18 @@ public class SceneLoader : MonoBehaviour
     public void LoadScene(int x)
     {
         SceneManager.LoadScene(x);
+    }
+    public void Quit()
+    {
+        Debug.Log("Quit");
+        Application.Quit();
+    }
+    void Update()//todo: remember to change this when making settings 
+    {
+        if(Input.GetKeyDown("escape"))
+        {
+            QuitMenu.SetActive(!QuitMenu.active);
+        }
     }
 }
 
