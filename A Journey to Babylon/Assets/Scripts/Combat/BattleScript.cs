@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BattleScript : MonoBehaviour
 {
@@ -111,8 +112,10 @@ public class BattleScript : MonoBehaviour
             Stats CastStat = PersonCast.GetComponent<Stats>();
             Stats HitStat = PersonHit.GetComponent<Stats>();
 
+            Debug.Log("Dealt:" + CastStat.Attack.ToString());
             HitStat.Damage(CastStat.Attack);
- 
+
+            BattleQueue.Remove(BattleQueue[I]);
         }
    }
 }

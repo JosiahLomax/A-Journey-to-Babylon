@@ -7,6 +7,8 @@ public class PlayerDetection : MonoBehaviour
     SceneLoader SceneChanger;
     void Start()
     {
+        //I mean I could just reference it but it might cause some issues when reloading
+        //so instead i used a find function please forgive me
         GameObject SceneObject = GameObject.Find("SystemLoader");
         SceneChanger = SceneObject.GetComponent<SceneLoader>(); 
     }
