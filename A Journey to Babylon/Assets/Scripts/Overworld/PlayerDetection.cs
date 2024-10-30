@@ -18,6 +18,9 @@ public class PlayerDetection : MonoBehaviour
         {
             if (other.CompareTag("BattleSpawn"))
             {
+                BattleDetails DetailsOfBattle = other.gameObject.GetComponent<BattleDetails>();
+                SceneChanger.StoredBattle(DetailsOfBattle);
+
                 SceneChanger.LoadScene(2);
             }
         }

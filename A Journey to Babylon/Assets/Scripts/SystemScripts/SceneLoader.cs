@@ -5,6 +5,7 @@ using System.Collections;
 public class SceneLoader : MonoBehaviour
 {
     private static SceneLoader instance;
+    public BattleDetails Battle;
     public void Awake()
     {
         if (instance == null)
@@ -17,6 +18,11 @@ public class SceneLoader : MonoBehaviour
             // Destroy the new instance if it's not the first one
             Destroy(gameObject);
         }
+    }
+    public void StoredBattle(BattleDetails x)
+    {
+        Battle.Allies = x.Allies;
+        Battle.Enemies = x.Enemies;
     }
 
     public void LoadScene(int x)

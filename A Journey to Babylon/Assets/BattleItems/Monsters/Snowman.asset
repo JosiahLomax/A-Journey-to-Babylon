@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3705018395eeb44887a73b910c1fa24, type: 3}
-  m_Name: Player
+  m_Name: Snowman
   m_EditorClassIdentifier: 
+  Appearence: {fileID: 1307829460100681405, guid: 0607d777257189d4ea516f96a4c76f9a, type: 3}
   Animator: {fileID: 0}
-  MaxHealth: 0
+  MaxHealth: 5
   MagicStones: 0
-  Heath: 0
   AttackDamage: 0
+  Moves: []

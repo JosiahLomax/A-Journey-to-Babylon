@@ -12,15 +12,8 @@ public class MobsInformation : ScriptableObject
     [Header("Stats")]
     public int MaxHealth;
     public int MagicStones;
-    public int Heath;
     public int AttackDamage;
 
-    [Header("Magic Moves")]
+    [Header("Moves")]
     public List<MagicMoves> Moves;
-}
-
-public class MagicMoves
-{
-    public int MagicStones;
-    public int Damage;
 }
