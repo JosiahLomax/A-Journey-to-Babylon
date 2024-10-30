@@ -35,12 +35,12 @@ public class Stats : MonoBehaviour
         }
         else
         {
-            Bar.value -= Health;
+            Bar.value -= x;
         }
     }
     public void Heal(int x)
     {
         Health += x;
-        Bar.value += Health;
+        Bar.value += x;
     }
 }
