@@ -22,5 +22,6 @@ public class EnemiesAttack : MonoBehaviour
         Attack.PersonAffected = new Vector2Int(0, 0);
         Attack.PersonCasting = new Vector2Int(1, 0);
         FightManager.AddAction(Attack);
+        FightManager.EndTurn();
     }
 }

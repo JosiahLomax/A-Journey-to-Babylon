@@ -113,7 +113,8 @@ public class BattleScript : MonoBehaviour
             Stats HitStat = PersonHit.GetComponent<Stats>();
 
             Debug.Log("Dealt:" + CastStat.Attack.ToString());
-            HitStat.Damage(CastStat.Attack);
+            if(BattleQueue[I].Type == "Attack") HitStat.Damage(CastStat.Attack);
+            if(BattleQueue[I].Type == "Defend") Debug.Log("Defend");
 
             BattleQueue.Remove(BattleQueue[I]);
         }

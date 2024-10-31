@@ -509,6 +509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d16429c059ec8144eb13977b8f7a792e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  typewriter: {fileID: 1257042847}
 --- !u!1 &953127239
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,6 +788,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6af9b2ab836f5ab4a8fc86e26b6e3ac8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Parent: {fileID: 741849108}
+  _tmpProText: {fileID: 1257042848}
+  AlreadyTalking: 0
+  timeBtwChars: 0.1
+  timeBtwDialogs: 2
 --- !u!114 &1257042848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -807,7 +813,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: wow, i'm talking i'm takling i'm talking
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1834,6 +1840,7 @@ GameObject:
   - component: {fileID: 1933448327}
   - component: {fileID: 1933448326}
   - component: {fileID: 1933448325}
+  - component: {fileID: 1933448328}
   m_Layer: 0
   m_Name: Woman
   m_TagString: NPC
@@ -1953,6 +1960,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1933448328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933448323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18139c06f8602b448086cee5233401e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog:
+  - Words: This is a test to see
+    Reactions: {fileID: 0}
+    TalkNoise: {fileID: 0}
+  - Words: if you can use mutiple
+    Reactions: {fileID: 0}
+    TalkNoise: {fileID: 0}
+  - Words: for the same crap
+    Reactions: {fileID: 0}
+    TalkNoise: {fileID: 0}
 --- !u!1 &1966435490
 GameObject:
   m_ObjectHideFlags: 0
@@ -2097,7 +2126,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialog:
-  - Words: 
+  - Words: This is a dialog
+    Reactions: {fileID: 0}
+    TalkNoise: {fileID: 0}
+  - Words: I am speaking
+    Reactions: {fileID: 0}
+    TalkNoise: {fileID: 0}
+  - Words: 'words are '
+    Reactions: {fileID: 0}
+    TalkNoise: {fileID: 0}
+  - Words: coming out of my mouth
     Reactions: {fileID: 0}
     TalkNoise: {fileID: 0}
 --- !u!1660057539 &9223372036854775807

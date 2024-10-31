@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerDetection : MonoBehaviour
 {
     SceneLoader SceneChanger;
+    [SerializeField] Typewriter typewriter;
     void Start()
     {
         //I mean I could just reference it but it might cause some issues when reloading
@@ -24,6 +25,12 @@ public class PlayerDetection : MonoBehaviour
                 SceneChanger.StoredBattle(DetailsOfBattle);
 
                 SceneChanger.LoadScene(2);
+            }
+            if (other.CompareTag("NPC"))
+            {
+                DialogInfo Dialog = other.gameObject.GetComponent<DialogInfo>();
+                typewriter.StartTalking(Dialog);
+
             }
         }
     }
