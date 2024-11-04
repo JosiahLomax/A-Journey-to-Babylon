@@ -12,6 +12,6 @@ public class DialogInfo : MonoBehaviour
 public class SpeechLayer
 {
     public string Words;
-    public Image Reactions;
+    public Sprite Reactions;
     public AudioClip TalkNoise;
 }

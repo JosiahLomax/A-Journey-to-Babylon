@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 
@@ -10,6 +11,8 @@ public class Typewriter : MonoBehaviour
 
 	[SerializeField] Animator Parent;
 	[SerializeField] TMP_Text _tmpProText;
+    [SerializeField] Image Face;
+    [SerializeField] AudioSource Audio;
 
     // below are the uhhh necessary stuff
 	DialogInfo _text;
@@ -36,6 +39,9 @@ public class Typewriter : MonoBehaviour
 
     IEnumerator DisplayText()
     {
+        Face.sprite = _text.Dialog[CurrentDialog]?.Reactions;
+        Audio.clip = _text.Dialog[CurrentDialog]?.TalkNoise;
+        Audio.Play();
         Writer = "";
         _tmpProText.text = "";
         for(int I = 0; I < CurrentWrite.Length; I++)
