@@ -668,7 +668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AlliesContainer: {fileID: 643605624}
   EnemiesContainer: {fileID: 2008427807}
-  GameState_Text: {fileID: 0}
+  GameState_Text: {fileID: 588841497}
   ContainerSize: 8
   Player: {fileID: 3694376181593512862, guid: ec93c911a6ea550448fd06083ec72760, type: 3}
   Allies:
@@ -874,7 +874,7 @@ GameObject:
   - component: {fileID: 588841498}
   - component: {fileID: 588841497}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: StateText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

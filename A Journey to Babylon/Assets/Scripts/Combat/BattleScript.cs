@@ -62,7 +62,8 @@ public class BattleScript : MonoBehaviour
     {
         Vector3 ModifiedPosition = AlliesContainer.transform.position;
         if(Allies.Count > 0) ModifiedPosition.y += ContainerSize;
-        Instantiate(Player, ModifiedPosition, transform.rotation, AlliesContainer.transform);
+        GameObject CurrentPlayer = Instantiate(Player, ModifiedPosition, transform.rotation, AlliesContainer.transform);
+        CurrentPlayer.name = "Player";
         
         if(Allies.Count <= 0) return;
 
@@ -117,11 +118,13 @@ public class BattleScript : MonoBehaviour
             Stats HitStat = PersonHit.GetComponent<Stats>();
 
 
-            GameState_Text.text = PersonCast.name + "'s Trun";
+            GameState_Text.text = PersonCast.name + "'s Turn";
 
             Debug.Log("Dealt:" + CastStat.Attack.ToString());
             if(BattleQueue[I].Type == "Attack") HitStat.Damage(CastStat.Attack);
             if(BattleQueue[I].Type == "Defend") Debug.Log("Defend");
+
+            GameState_Text.text = PersonHit.name + "'s Turn";
 
             BattleQueue.Remove(BattleQueue[I]);
         }
