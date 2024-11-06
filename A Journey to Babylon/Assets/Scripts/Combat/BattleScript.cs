@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using TMPro;
 
 public class BattleScript : MonoBehaviour
 {
     BattleDetails Battle;
     [SerializeField] GameObject AlliesContainer;
     [SerializeField] GameObject EnemiesContainer;
+    [SerializeField] TMP_Text GameState_Text;
 
     [Header("External Settings")]
     [SerializeField] float ContainerSize;
@@ -41,6 +43,7 @@ public class BattleScript : MonoBehaviour
         {
             if(x[I] == null) return;
             GameObject CurrentObject = Instantiate(x[I].Appearence, ModifiedPosition, transform.rotation, Container.transform);
+            CurrentObject.name = x[I].name;
 
             ModifiedPosition.y += AddContain; 
             Debug.Log("Spawned Allies");
@@ -85,6 +88,7 @@ public class BattleScript : MonoBehaviour
         GameObject PersonCast;
         GameObject PersonHit;
         Transform TempPerson;
+
         for(int I = 0; I < BattleQueue.Count; I++)
         {
             if(BattleQueue[I].PersonCasting[0] == 0)
@@ -112,6 +116,9 @@ public class BattleScript : MonoBehaviour
             Stats CastStat = PersonCast.GetComponent<Stats>();
             Stats HitStat = PersonHit.GetComponent<Stats>();
 
+
+            GameState_Text.text = PersonCast.name + "'s Trun";
+
             Debug.Log("Dealt:" + CastStat.Attack.ToString());
             if(BattleQueue[I].Type == "Attack") HitStat.Damage(CastStat.Attack);
             if(BattleQueue[I].Type == "Defend") Debug.Log("Defend");
@@ -120,6 +127,7 @@ public class BattleScript : MonoBehaviour
         }
    }
 }
+
 
 [System.Serializable]
 public class BattleLayer

@@ -136,7 +136,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Allies: []
-  Enemies: []
+  Enemies:
+  - {fileID: 11400000, guid: 5b774c4acb676314c92e246abac13ad4, type: 2}
 --- !u!1 &4794157867235026587
 GameObject:
   m_ObjectHideFlags: 0
