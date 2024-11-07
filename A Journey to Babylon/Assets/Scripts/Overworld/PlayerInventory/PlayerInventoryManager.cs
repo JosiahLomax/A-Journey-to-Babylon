@@ -5,10 +5,13 @@ using UnityEngine;
 public class PlayerInventoryManager : MonoBehaviour
 {
     [Header("Options")]
-    [SerializeField] Vector2 Size;
+    [SerializeField] GameObject ItemContainer;
+    [SerializeField] Transform ItemParents;
+    [SerializeField] Vector2 TotalSize;
     [SerializeField] Vector2 Padding;
 
     [Header("Debug")]
+    [SerializeField] GameObject InventoryObject;
     [SerializeField] PlayerInventory inv;
 
     void Start()
@@ -23,7 +26,8 @@ public class PlayerInventoryManager : MonoBehaviour
 
         for(int I = 0; I < inv.Inventory.Count; I++)
         {
-            
+            ItemContainer.name = "ItemContainer" + I;
+            Instantiate(ItemContainer, ItemParents);
         }
     }
 }

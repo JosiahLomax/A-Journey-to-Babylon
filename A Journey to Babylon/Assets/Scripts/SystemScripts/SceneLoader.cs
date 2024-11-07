@@ -4,9 +4,12 @@ using System.Collections;
 
 public class SceneLoader : MonoBehaviour
 {
+
+    //todo: fix up this script ;-;
     private static SceneLoader instance;
     public BattleDetails Battle;
     [SerializeField] GameObject QuitMenu;
+    [SerializeField] GameObject InvMenu;
     public void Awake()
     {
         if (instance == null)
@@ -40,6 +43,10 @@ public class SceneLoader : MonoBehaviour
         if(Input.GetKeyDown("escape"))
         {
             QuitMenu.SetActive(!QuitMenu.active);
+        }
+        if(Input.GetKeyDown(KeyCode.Tab))
+        {
+            InvMenu.SetActive(!InvMenu.active);
         }
     }
 }
