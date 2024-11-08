@@ -1110,8 +1110,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemContainer: {fileID: 2992440392310296647, guid: 547fe68cf666c07499c806437f0a07c5, type: 3}
   ItemParents: {fileID: 691711098352237216}
-  TotalSize: {x: 3, y: 0}
-  Padding: {x: 0, y: 0}
+  TotalCollums: 4
+  Padding: {x: 100, y: 100}
   InventoryObject: {fileID: 110037685504105391}
   inv: {fileID: 0}
 --- !u!1 &8224181088742865644

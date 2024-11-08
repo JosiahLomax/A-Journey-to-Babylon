@@ -302,6 +302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Battle: {fileID: 3815447782208694943}
   QuitMenu: {fileID: 8085861736762514034}
+  InvMenu: {fileID: 0}
 --- !u!114 &3815447782208694943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -331,7 +332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Inventory:
   - Item_: {fileID: 0}
-    Quantity: 0
+    Quantity: 5
   - Item_: {fileID: 0}
     Quantity: 0
   - Item_: {fileID: 0}

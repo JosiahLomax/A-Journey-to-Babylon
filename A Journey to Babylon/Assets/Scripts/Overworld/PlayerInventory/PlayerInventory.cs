@@ -10,6 +10,6 @@ public class PlayerInventory : MonoBehaviour
 [System.Serializable]
 public class InventoryEntry
 {
-    public Item Item_;
+    public ItemsInformation Item_;
     public int Quantity;
 }
