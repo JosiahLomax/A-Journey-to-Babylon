@@ -13,14 +13,13 @@ public class PlayerInventoryManager : MonoBehaviour
     [SerializeField] Vector2 Padding;
 
     [Header("Debug")]
-    [SerializeField] GameObject InventoryObject;
     [SerializeField] PlayerInventory inv;
+
 
     void Start()
     {
         CreateInv();
     }
-
     void CreateInv()
     {
         GameObject SystemLoader = GameObject.Find("SystemLoader");
@@ -29,7 +28,7 @@ public class PlayerInventoryManager : MonoBehaviour
 
         for(int I = 0; I < inv.Inventory.Count; I++)
         {
-            GameObject CreatedItem = Instantiate(ItemContainer, ItemParents);
+            GameObject CreatedItem = Instantiate(ItemContainer, ItemParents); //Item positions
             CreatedItem.name = "ItemContainer " + I;
 
             Vector3 CreatedPosition = CreatedItem.transform.position;
@@ -43,7 +42,20 @@ public class PlayerInventoryManager : MonoBehaviour
                 AddedPosition.x = 0;
             }
 
-            CreatedItem.transform.position = CreatedPosition + AddedPosition; 
+
+            //Item Appearence
+            CreatedItem.transform.position = CreatedPosition + AddedPosition;
+
+            Image ItemImage = CreatedItem?.GetComponent<Image>(); //null check
+            if(ItemImage == null) Debug.LogWarning("No image component");
+
+            ItemImage.sprite = inv.Inventory[I].Item_?.Appearence;
+
+            //Text apperance
+            TMP_Text AmountOfItemText = CreatedItem.transform.GetChild(0)?.GetComponent<TMP_Text>();
+            if(AmountOfItemText == null) Debug.LogWarning("No image component");
+
+            AmountOfItemText.text = inv.Inventory[I].Quantity.ToString();
         }
     }
 }

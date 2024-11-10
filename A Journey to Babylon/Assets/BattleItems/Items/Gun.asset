@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49ef9a5be0f8b264eb3cfbc8dc87077c, type: 3}
   m_Name: Gun
   m_EditorClassIdentifier: 
-  Appearence: {fileID: 0}
+  Appearence: {fileID: 21300000, guid: c84e047508db3114d9b94c736d78391b, type: 3}
   FlavorText: It's a gun :D

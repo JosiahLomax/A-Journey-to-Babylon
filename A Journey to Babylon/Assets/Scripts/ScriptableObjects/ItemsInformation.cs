@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class ItemsInformation : ScriptableObject
 {
     [Header("Important stuff")]
-    public Image Appearence;
+    public Sprite Appearence;
 
     [Header("Stats")]
     public string FlavorText;
