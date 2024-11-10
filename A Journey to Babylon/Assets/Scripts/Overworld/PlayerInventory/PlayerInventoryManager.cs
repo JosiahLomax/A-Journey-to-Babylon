@@ -20,6 +20,19 @@ public class PlayerInventoryManager : MonoBehaviour
     {
         CreateInv();
     }
+    public void UpdateInv()
+    {
+        DeleteInv();
+        CreateInv();
+    }
+    void DeleteInv()
+    {
+        for (int I = ItemParents.childCount - 1; I >= 0; I--)
+        {
+            Destroy(ItemParents.GetChild(I).gameObject);
+        }
+    }
+
     void CreateInv()
     {
         GameObject SystemLoader = GameObject.Find("SystemLoader");
