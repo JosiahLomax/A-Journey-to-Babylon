@@ -6,6 +6,8 @@ public class PlayerDetection : MonoBehaviour
 {
     SceneLoader SceneChanger;
     [SerializeField] Typewriter typewriter;
+    [SerializeField] PopupManager Popups;
+
     void Start()
     {
         //I mean I could just reference it but it might cause some issues when reloading
@@ -17,7 +19,11 @@ public class PlayerDetection : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(SceneChanger != null)
+        //I prob could have done this in a better way...
+        //but like it works and it's pretty darn readable
+        //actualy this is prob the best way to do it
+
+        if(SceneChanger != null) 
         {
             if (other.CompareTag("BattleSpawn"))
             {
@@ -26,10 +32,18 @@ public class PlayerDetection : MonoBehaviour
 
                 SceneChanger.LoadScene(2);
             }
+
             if (other.CompareTag("NPC"))
             {
                 DialogInfo Dialog = other.gameObject.GetComponent<DialogInfo>();
                 typewriter.StartTalking(Dialog);
+
+            }
+
+            if (other.CompareTag("Popup"))
+            {
+                PopupInfo Info = other.gameObject.GetComponent<PopupInfo>();
+                Popups.DisplayName(Info);
 
             }
         }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - BattleSpawn
   - NPC
+  - Popup
   layers:
   - Default
   - TransparentFX
