@@ -1502,6 +1502,7 @@ GameObject:
   - component: {fileID: 2983993529532310456}
   - component: {fileID: 8980269299427876030}
   - component: {fileID: 5190104663119988138}
+  - component: {fileID: 488323852204882122}
   m_Layer: 5
   m_Name: Quest
   m_TagString: Untagged
@@ -1592,6 +1593,20 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &488323852204882122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6386825776013768158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e08a48a4564c443bb6174375496870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainQuest: 
+  SubQuest: []
 --- !u!1 &6603693096857882730
 GameObject:
   m_ObjectHideFlags: 0
