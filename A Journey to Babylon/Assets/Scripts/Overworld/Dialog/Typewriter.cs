@@ -12,7 +12,7 @@ public class Typewriter : MonoBehaviour
 	[SerializeField] Animator Parent;
 	[SerializeField] TMP_Text _tmpProText;
     [SerializeField] Image Face;
-    [SerializeField] AudioSource Audio;
+    [SerializeField] AudioManager Audio;
 
     // below are the uhhh necessary stuff
 	DialogInfo _text;
@@ -39,9 +39,12 @@ public class Typewriter : MonoBehaviour
 
     IEnumerator DisplayText()
     {
+        AudioClip TalkAudio;
         Face.sprite = _text.Dialog[CurrentDialog]?.Reactions;
-        Audio.clip = _text.Dialog[CurrentDialog]?.TalkNoise;
-        Audio.Play();
+        TalkAudio = _text.Dialog[CurrentDialog]?.TalkNoise;
+
+        if(TalkAudio != null)Audio.PlayAudio(TalkAudio);
+
         Writer = "";
         _tmpProText.text = "";
         for(int I = 0; I < CurrentWrite.Length; I++)
