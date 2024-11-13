@@ -7,6 +7,7 @@ public class PlayerDetection : MonoBehaviour
     SceneLoader SceneChanger;
     [SerializeField] Typewriter typewriter;
     [SerializeField] PopupManager Popups;
+    [SerializeField] AudioManager AudioManager;
 
     void Start()
     {
@@ -27,16 +28,16 @@ public class PlayerDetection : MonoBehaviour
         {
             if (other.CompareTag("BattleSpawn"))
             {
-                BattleDetails DetailsOfBattle = other.gameObject.GetComponent<BattleDetails>();
-                SceneChanger.StoredBattle(DetailsOfBattle);
+                BattleDetails Info = other.gameObject.GetComponent<BattleDetails>();
+                SceneChanger.StoredBattle(Info);
 
                 SceneChanger.LoadScene(2);
             }
 
             if (other.CompareTag("NPC"))
             {
-                DialogInfo Dialog = other.gameObject.GetComponent<DialogInfo>();
-                typewriter.StartTalking(Dialog);
+                DialogInfo Info = other.gameObject.GetComponent<DialogInfo>();
+                typewriter.StartTalking(Info);
 
             }
 
@@ -44,6 +45,13 @@ public class PlayerDetection : MonoBehaviour
             {
                 PopupInfo Info = other.gameObject.GetComponent<PopupInfo>();
                 Popups.DisplayName(Info);
+
+            }
+
+            if (other.CompareTag("Region"))
+            {
+                AudioSource Info = other.gameObject.GetComponent<AudioSource>();
+                AudioManager.PlayMusic(Info);
 
             }
         }
