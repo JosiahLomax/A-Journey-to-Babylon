@@ -1605,8 +1605,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22e08a48a4564c443bb6174375496870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MainQuest: 
-  SubQuest: []
+  MainQuestText: {fileID: 1489216579744931267}
+  SubQuestObjects:
+  - {fileID: 639809857217925798}
+  - {fileID: 8106636795066233897}
+  - {fileID: 6709936044393449114}
+  - {fileID: 8149834932294359987}
 --- !u!1 &6603693096857882730
 GameObject:
   m_ObjectHideFlags: 0
