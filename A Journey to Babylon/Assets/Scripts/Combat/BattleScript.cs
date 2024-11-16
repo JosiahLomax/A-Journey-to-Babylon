@@ -119,19 +119,28 @@ public class BattleScript : MonoBehaviour
             Stats CastStat = PersonCast.GetComponent<Stats>();
             Stats HitStat = PersonHit.GetComponent<Stats>();
 
-
-            GameState_Text.text = PersonCast.name + "'s Turn";
-
-            Debug.Log("Dealt:" + CastStat.Attack.ToString());
-            if(BattleQueue[I].Type == "Attack") HitStat.Damage(CastStat.Attack);
-            if(BattleQueue[I].Type == "Defend") Debug.Log("Defend");
-
-            GameState_Text.text = PersonHit.name + "'s Turn";
-
-            BattleQueue.Remove(BattleQueue[I]);
+            TakeAction(PersonCast, PersonHit, CastStat, HitStat, I);
         }
-   }
+    }
+    //dude i'm sorry for programming it like this
+    void TakeAction(GameObject PersonCast,
+                    GameObject PersonHit, 
+                    Stats CastStat,
+                    Stats HitStat,
+                    int Current)
+    {
+        GameState_Text.text = PersonCast.name + "'s Turn";
+
+        Debug.Log("Dealt:" + CastStat.Attack.ToString());
+        if(BattleQueue[Current].Type == "Attack") HitStat.Damage(CastStat.Attack);
+        if(BattleQueue[Current].Type == "Defend") Debug.Log("Defend");
+
+        GameState_Text.text = PersonHit.name + "'s Turn";
+
+        BattleQueue.Remove(BattleQueue[Current]);
+    }
 }
+
 
 
 [System.Serializable]
