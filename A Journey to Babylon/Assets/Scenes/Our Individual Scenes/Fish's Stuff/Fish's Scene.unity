@@ -583,7 +583,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 301866035}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 955005693}
+        m_TargetAssemblyTypeName: Appear, Assembly-CSharp
+        m_MethodName: SwitchActive
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &301866035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1242,6 +1254,7 @@ GameObject:
   - component: {fileID: 955005690}
   - component: {fileID: 955005692}
   - component: {fileID: 955005691}
+  - component: {fileID: 955005693}
   m_Layer: 5
   m_Name: MagicMenu
   m_TagString: Untagged
@@ -1306,6 +1319,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 955005689}
   m_CullTransparentMesh: 1
+--- !u!114 &955005693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955005689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb2c0bb902d3da0449056d4dab07d6a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1019761885
 GameObject:
   m_ObjectHideFlags: 0
@@ -2178,6 +2203,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 546866331552280884, guid: 9a5037c097772cc47bb9ecda1c96b263, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 897831904191749885, guid: 9a5037c097772cc47bb9ecda1c96b263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

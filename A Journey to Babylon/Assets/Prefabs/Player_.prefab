@@ -101,7 +101,8 @@ MonoBehaviour:
   Health: 50
   Attack: 4
   Status: []
-  Moves: []
+  Moves:
+  - {fileID: 11400000, guid: aa782c33ae956884a980c0c51e2f426c, type: 2}
   Bar: {fileID: 0}
 --- !u!114 &8429534051796747076
 MonoBehaviour:

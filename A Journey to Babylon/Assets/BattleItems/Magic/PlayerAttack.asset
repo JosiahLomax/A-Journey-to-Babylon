@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: PlayerAttack
   m_EditorClassIdentifier: 
   Appearence: {fileID: 0}
-  MagicStones: 4
+  MagicStones: 0
   AttackDamage: 2

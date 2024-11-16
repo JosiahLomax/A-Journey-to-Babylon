@@ -92,6 +92,8 @@ public class BattleScript : MonoBehaviour
 
         for(int I = 0; I < BattleQueue.Count; I++)
         {
+            //I know I have a better way of doing this but I am simply 
+            //TOO FUCKING RETARDED
             if(BattleQueue[I].PersonCasting[0] == 0)
             {
                 TempPerson = AlliesContainer.transform.GetChild(BattleQueue[I].PersonCasting[1]);
