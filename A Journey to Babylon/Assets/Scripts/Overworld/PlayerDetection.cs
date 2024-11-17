@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerDetection : MonoBehaviour
 {
+    //I think it's better to not use unity's event system form this
+    //but that might've been a mistake
     SceneLoader SceneChanger;
     [SerializeField] Typewriter typewriter;
     [SerializeField] PopupManager Popups;
     [SerializeField] AudioManager AudioManager;
+    [SerializeField] GiveItems ItemsGive;
 
     void Start()
     {
@@ -38,6 +42,9 @@ public class PlayerDetection : MonoBehaviour
             {
                 DialogInfo Info = other.gameObject.GetComponent<DialogInfo>();
                 typewriter.StartTalking(Info);
+
+                AddItemsInfo? Info1 = other.gameObject.GetComponent<AddItemsInfo>();
+                if(Info1 != null) ItemsGive.AddItem(Info1);
 
             }
 

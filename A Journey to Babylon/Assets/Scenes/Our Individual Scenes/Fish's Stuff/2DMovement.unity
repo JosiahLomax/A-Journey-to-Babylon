@@ -503,6 +503,7 @@ MonoBehaviour:
   typewriter: {fileID: 1257042847}
   Popups: {fileID: 1387023721}
   AudioManager: {fileID: 594663511}
+  ItemsGive: {fileID: 1274791075}
 --- !u!81 &872538275
 AudioListener:
   m_ObjectHideFlags: 0
@@ -938,6 +939,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 776810970746378069, guid: 9a5037c097772cc47bb9ecda1c96b263, type: 3}
+      propertyPath: Inv
+      value: 
+      objectReference: {fileID: 1274791074}
+    - target: {fileID: 776810970746378069, guid: 9a5037c097772cc47bb9ecda1c96b263, type: 3}
+      propertyPath: InvManage
+      value: 
+      objectReference: {fileID: 4282523688909501919}
     - target: {fileID: 897831904191749885, guid: 9a5037c097772cc47bb9ecda1c96b263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1004,7 +1013,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5644110357245684303, guid: 9a5037c097772cc47bb9ecda1c96b263, type: 3}
       propertyPath: Inventory.Array.size
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5644110357245684303, guid: 9a5037c097772cc47bb9ecda1c96b263, type: 3}
       propertyPath: Inventory.Array.data[0].Item_
@@ -1041,6 +1050,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 307a22f7984074543934710e0706b253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1274791075 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 776810970746378069, guid: 9a5037c097772cc47bb9ecda1c96b263, type: 3}
+  m_PrefabInstance: {fileID: 1274791073}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d6d7b7902a38d43a7691d23c26b402, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1316868885
@@ -2447,6 +2467,7 @@ GameObject:
   - component: {fileID: 1966435492}
   - component: {fileID: 1966435491}
   - component: {fileID: 1966435494}
+  - component: {fileID: 1966435495}
   m_Layer: 0
   m_Name: Man
   m_TagString: NPC
@@ -2591,6 +2612,20 @@ MonoBehaviour:
   - Words: coming out of my mouth
     Reactions: {fileID: 0}
     TalkNoise: {fileID: 8300000, guid: c6ed05d63945c7c438e68a9edafe868b, type: 3}
+--- !u!114 &1966435495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966435490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0611e414d185c64697709286d5c4bee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Item: {fileID: 11400000, guid: f53a0cb7de6b4d94fbd6ba7823271e0a, type: 2}
+  Quantity: 2
 --- !u!1 &2316180213534550861 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6212209436055701796, guid: c719328ade5c52e4f9e8171736f61910, type: 3}
@@ -2769,6 +2804,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c719328ade5c52e4f9e8171736f61910, type: 3}
+--- !u!114 &4282523688909501919 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4288288604960086558, guid: c719328ade5c52e4f9e8171736f61910, type: 3}
+  m_PrefabInstance: {fileID: 4282523688909501918}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08186c98eb8ef964ebcb476c01937f3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
