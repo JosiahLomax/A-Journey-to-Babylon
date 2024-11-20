@@ -14,10 +14,13 @@ public class BattleScript : MonoBehaviour
     [Header("External Settings")]
     [SerializeField] float ContainerSize;
 
-    [Header("Battle Settings")]
+    [Header("Battle Players")]
     public GameObject Player;
     public List<MobsInformation> Allies;
     public List<MobsInformation> Enemies;
+
+    [Header("Battle Settings")]
+    [SerializeField] float AnimationTime;
 
     [Header("Battle Layout")]
     public List<BattleLayer> BattleQueue;
@@ -119,15 +122,22 @@ public class BattleScript : MonoBehaviour
             Stats CastStat = PersonCast.GetComponent<Stats>();
             Stats HitStat = PersonHit.GetComponent<Stats>();
 
-            TakeAction(PersonCast, PersonHit, CastStat, HitStat, I);
+            StartCoroutine(DelayedAction(PersonCast, PersonHit, CastStat, HitStat, I));
         }
     }
+    //so this is a bit of a hack
+    //I first use a coroutine to start it
+    //make it wait 2-3 seconds for animation
+    //then actually start the thing
+    //the problem is that i'm passing through like 8 params
+    //so I think there's a cleaner way but honestly idc
+    IEnumerator DelayedAction(GameObject PersonCast_, GameObject PersonHit_, Stats CastStat_, Stats HitStat_, int Current_)
+    {
+        yield return new WaitForSeconds(AnimationTime);
+        TakeAction(PersonCast_, PersonHit_, CastStat_, HitStat_, Current_);
+    }
     //dude i'm sorry for programming it like this
-    void TakeAction(GameObject PersonCast,
-                    GameObject PersonHit, 
-                    Stats CastStat,
-                    Stats HitStat,
-                    int Current)
+    void TakeAction(GameObject PersonCast, GameObject PersonHit, Stats CastStat, Stats HitStat, int Current)
     {
         GameState_Text.text = PersonCast.name + "'s Turn";
 

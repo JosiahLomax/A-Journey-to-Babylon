@@ -687,6 +687,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: dba97a74cf44b244f8569a35228c2b90, type: 2}
   Enemies:
   - {fileID: 11400000, guid: 5b774c4acb676314c92e246abac13ad4, type: 2}
+  AnimationTime: 2
   BattleQueue: []
 --- !u!1 &453707445
 GameObject:
@@ -2061,18 +2062,6 @@ MonoBehaviour:
       - m_Target: {fileID: 21961373}
         m_TargetAssemblyTypeName: PlayerActions, Assembly-CSharp
         m_MethodName: PlayerAttack
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2008427809}
-        m_TargetAssemblyTypeName: EnemiesAttack, Assembly-CSharp
-        m_MethodName: EnemiesAction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
