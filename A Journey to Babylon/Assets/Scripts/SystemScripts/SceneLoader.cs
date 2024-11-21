@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 using System.Collections;
 
 public class SceneLoader : MonoBehaviour
@@ -40,11 +41,11 @@ public class SceneLoader : MonoBehaviour
     }
     void Update()//todo: remember to change this when making settings 
     {
-        if(Input.GetKeyDown("escape"))
+        if(InputSystem.actions.FindAction("Pause").triggered)
         {
             QuitMenu.SetActive(!QuitMenu.active);
         }
-        if(Input.GetKeyDown(KeyCode.Tab))
+        if(InputSystem.actions.FindAction("Inventory").triggered)
         {
             InvMenu.SetActive(!InvMenu.active);
         }

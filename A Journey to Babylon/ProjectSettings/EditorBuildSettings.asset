@@ -14,4 +14,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Our Individual Scenes/Fish's Stuff/Fish's Scene.unity
     guid: caa739785b7113d498a6f5bc3dd72f08
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: c6a7ded88370ab041b4657bec09f8ade, type: 3}

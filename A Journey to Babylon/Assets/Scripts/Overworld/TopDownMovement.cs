@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class TopDownMovement : MonoBehaviour
 {
@@ -13,8 +14,11 @@ public class TopDownMovement : MonoBehaviour
 
     void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
-        vertical = Input.GetAxisRaw("Vertical"); 
+        InputAction MoveAction = InputSystem.actions.FindAction("Move");
+
+        horizontal = MoveAction.ReadValue<Vector2>().x;
+        vertical = MoveAction.ReadValue<Vector2>().y;
+
     }
 
     void FixedUpdate()
