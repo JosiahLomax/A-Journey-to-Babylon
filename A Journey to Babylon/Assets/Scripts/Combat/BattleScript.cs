@@ -24,6 +24,11 @@ public class BattleScript : MonoBehaviour
 
     [Header("Battle Layout")]
     public List<BattleLayer> BattleQueue;
+    [Header("Fight Status")]
+    //Gonna make it a vector 2 then index it
+    //decided not to do enum and have it as states, but that might hurt me
+    [SerializeField] Vector2 CurrentMobTurn;
+    [SerializeField] bool CurrentlyPlaying;
 
     public void Start()
     {
@@ -80,14 +85,19 @@ public class BattleScript : MonoBehaviour
     //Useable Scripts
     public void AddAction(BattleLayer Layer)
     {
+        if(CurrentlyPlaying)
+        {
+            return;
+        }
         BattleQueue.Add(Layer);
     }
     public void EndTurn()
     {
-        if(BattleQueue.Count <= 0)
+        if(BattleQueue.Count <= 0 || CurrentlyPlaying)
         {
            return; 
         }
+        CurrentlyPlaying = true;
         //look for person who casted
         GameObject PersonCast;
         GameObject PersonHit;
@@ -135,6 +145,7 @@ public class BattleScript : MonoBehaviour
     {
         yield return new WaitForSeconds(AnimationTime);
         TakeAction(PersonCast_, PersonHit_, CastStat_, HitStat_, Current_);
+        CurrentlyPlaying = false;
     }
     //dude i'm sorry for programming it like this
     void TakeAction(GameObject PersonCast, GameObject PersonHit, Stats CastStat, Stats HitStat, int Current)

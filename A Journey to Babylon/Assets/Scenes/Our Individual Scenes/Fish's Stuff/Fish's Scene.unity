@@ -689,6 +689,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5b774c4acb676314c92e246abac13ad4, type: 2}
   AnimationTime: 2
   BattleQueue: []
+  CurrentMobTurn: {x: 0, y: 0}
+  CurrentlyPlaying: 0
 --- !u!1 &453707445
 GameObject:
   m_ObjectHideFlags: 0
