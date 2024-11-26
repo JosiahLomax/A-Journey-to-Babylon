@@ -143,7 +143,14 @@ public class BattleScript : MonoBehaviour
     //so I think there's a cleaner way but honestly idc
     IEnumerator DelayedAction(GameObject PersonCast_, GameObject PersonHit_, Stats CastStat_, Stats HitStat_, int Current_)
     {
+        //animation
+        Animator? CastingAnimator = PersonCast_.GetComponent<Animator>();
+        if(CastingAnimator == null) Debug.LogError("No animator on casting gameobject");
+        CastingAnimator.SetTrigger("PlayerHit");
+
         yield return new WaitForSeconds(AnimationTime);
+
+        //actions after waiting
         TakeAction(PersonCast_, PersonHit_, CastStat_, HitStat_, Current_);
         CurrentlyPlaying = false;
     }
