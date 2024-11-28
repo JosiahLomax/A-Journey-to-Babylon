@@ -146,6 +146,8 @@ public class BattleScript : MonoBehaviour
         //animation
         Animator? CastingAnimator = PersonCast_.GetComponent<Animator>();
         if(CastingAnimator == null) Debug.LogError("No animator on casting gameobject");
+        //Todo: update this with like a move index thing to
+        //make animation for eveyrhting.
         CastingAnimator.SetTrigger("PlayerHit");
 
         yield return new WaitForSeconds(AnimationTime);
