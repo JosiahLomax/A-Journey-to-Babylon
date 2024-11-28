@@ -24,43 +24,55 @@ public class PlayerDetection : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        //I prob could have done this in a better way...
-        //but like it works and it's pretty darn readable
-        //actualy this is prob the best way to do it
-
-        if(SceneChanger != null) 
+        //this was not a swithcstatement before
+        //because I didn't realize you can change the scope
+        //and I want them to have the same name
+        //but now I do :D
+        if(SceneChanger == null) 
         {
-            if (other.CompareTag("BattleSpawn"))
+            return;
+        }
+
+        string tag = other.tag;
+
+        switch(tag)
+        {
+            case "BattleSpawn":
             {
                 BattleDetails Info = other.gameObject.GetComponent<BattleDetails>();
                 SceneChanger.StoredBattle(Info);
 
                 SceneChanger.LoadScene(2);
+                break;
             }
 
-            if (other.CompareTag("NPC"))
+            case "NPC":
             {
                 DialogInfo Info = other.gameObject.GetComponent<DialogInfo>();
                 typewriter.StartTalking(Info);
 
                 AddItemsInfo? Info1 = other.gameObject.GetComponent<AddItemsInfo>();
                 if(Info1 != null) ItemsGive.AddItem(Info1);
-
+                break;
             }
 
-            if (other.CompareTag("Popup"))
+            case "Popup":
             {
                 PopupInfo Info = other.gameObject.GetComponent<PopupInfo>();
                 Popups.DisplayName(Info);
-
+                break;
             }
 
-            if (other.CompareTag("Region"))
+            case "Region":
             {
                 AudioSource Info = other.gameObject.GetComponent<AudioSource>();
                 AudioManager.PlayMusic(Info);
-
+                break;
             }
+
+            default:
+                Debug.Log("unable to find tag");
+                break; 
         }
     }
 }
