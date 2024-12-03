@@ -29,6 +29,12 @@ public class BattleScript : MonoBehaviour
     //decided not to do enum and have it as states, but that might hurt me
     [SerializeField] Vector2 CurrentMobTurn;
     [SerializeField] bool CurrentlyPlaying;
+    public Turns GameTurns;
+    public enum Turns
+    {
+        PlayerTurn = 0,
+        EnemyTurn = 1
+    }
 
     public void Start()
     {
@@ -152,7 +158,6 @@ public class BattleScript : MonoBehaviour
 
         yield return new WaitForSeconds(AnimationTime);
 
-        //actions after waiting
         TakeAction(PersonCast_, PersonHit_, CastStat_, HitStat_, Current_);
         CurrentlyPlaying = false;
     }

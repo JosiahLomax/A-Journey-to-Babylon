@@ -691,6 +691,7 @@ MonoBehaviour:
   BattleQueue: []
   CurrentMobTurn: {x: 0, y: 0}
   CurrentlyPlaying: 0
+  GameTurns: 0
 --- !u!1 &453707445
 GameObject:
   m_ObjectHideFlags: 0
