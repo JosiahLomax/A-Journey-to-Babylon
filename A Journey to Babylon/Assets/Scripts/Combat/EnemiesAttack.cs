@@ -16,6 +16,8 @@ public class EnemiesAttack : MonoBehaviour
 
     void EnemyAttack()
     {
+        Debug.Log("Enemy attack");
+
         BattleLayer Attack = new BattleLayer();
         Attack.Type = "Attack";
         Attack.ID = "";

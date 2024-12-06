@@ -29,12 +29,7 @@ public class BattleScript : MonoBehaviour
     //decided not to do enum and have it as states, but that might hurt me
     [SerializeField] Vector2 CurrentMobTurn;
     [SerializeField] bool CurrentlyPlaying;
-    public Turns GameTurns;
-    public enum Turns
-    {
-        PlayerTurn = 0,
-        EnemyTurn = 1
-    }
+    public UnityEvent EnemyAction;
 
     public void Start()
     {
@@ -160,6 +155,9 @@ public class BattleScript : MonoBehaviour
 
         TakeAction(PersonCast_, PersonHit_, CastStat_, HitStat_, Current_);
         CurrentlyPlaying = false;
+
+        //Enemy Actions
+        EnemyAction.Invoke();
     }
     //dude i'm sorry for programming it like this
     void TakeAction(GameObject PersonCast, GameObject PersonHit, Stats CastStat, Stats HitStat, int Current)
