@@ -328,6 +328,7 @@ GameObject:
   - component: {fileID: 872538275}
   - component: {fileID: 872538272}
   - component: {fileID: 872538274}
+  - component: {fileID: 872538276}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -513,6 +514,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 872538268}
   m_Enabled: 1
+--- !u!114 &872538276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872538268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caaaee1689bdbd24eb4442e802b310f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sprite: {fileID: 872538269}
 --- !u!1 &953127239
 GameObject:
   m_ObjectHideFlags: 0
