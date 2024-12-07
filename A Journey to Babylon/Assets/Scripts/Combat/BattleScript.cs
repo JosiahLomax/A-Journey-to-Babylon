@@ -29,6 +29,8 @@ public class BattleScript : MonoBehaviour
     //decided not to do enum and have it as states, but that might hurt me
     [SerializeField] Vector2 CurrentMobTurn;
     [SerializeField] bool CurrentlyPlaying;
+    [SerializeField] bool PlayerTurn;
+    public UnityEvent EnemyAction;
 
     public void Start()
     {
@@ -143,9 +145,20 @@ public class BattleScript : MonoBehaviour
     //so I think there's a cleaner way but honestly idc
     IEnumerator DelayedAction(GameObject PersonCast_, GameObject PersonHit_, Stats CastStat_, Stats HitStat_, int Current_)
     {
+        //animation
+        Animator? CastingAnimator = PersonCast_.GetComponent<Animator>();
+        if(CastingAnimator == null) Debug.LogError("No animator on casting gameobject");
+        //Todo: update this with like a move index thing to
+        //make animation for eveyrhting.
+        CastingAnimator.SetTrigger("Hit");
+
         yield return new WaitForSeconds(AnimationTime);
+
         TakeAction(PersonCast_, PersonHit_, CastStat_, HitStat_, Current_);
         CurrentlyPlaying = false;
+
+        //Enemy Actions
+        if(PersonCast_.transform.parent.name == "AlliesSide")EnemyAction.Invoke();
     }
     //dude i'm sorry for programming it like this
     void TakeAction(GameObject PersonCast, GameObject PersonHit, Stats CastStat, Stats HitStat, int Current)
