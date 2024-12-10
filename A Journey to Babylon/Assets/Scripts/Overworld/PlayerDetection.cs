@@ -8,10 +8,14 @@ public class PlayerDetection : MonoBehaviour
     //I think it's better to not use unity's event system form this
     //but that might've been a mistake
     SceneLoader SceneChanger;
+    [Header("Req Scripts")]
     [SerializeField] Typewriter typewriter;
     [SerializeField] PopupManager Popups;
     [SerializeField] AudioManager AudioManager;
     [SerializeField] GiveItems ItemsGive;
+
+    [Header("Info")]
+    [SerializeField] bool NearNpc;
 
     void Start()
     {
@@ -19,6 +23,25 @@ public class PlayerDetection : MonoBehaviour
         //so instead i used a find function please forgive me
         GameObject SceneObject = GameObject.Find("SystemLoader");
         SceneChanger = SceneObject.GetComponent<SceneLoader>(); 
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        string tag = other.tag;
+
+        switch(tag)
+        {
+            case "NPC":
+            {
+                NearNpc = false;
+                break;
+            }
+
+           default:
+                Debug.Log("unable to find tag");
+                break; 
+        }
+ 
     }
 
     
@@ -48,6 +71,8 @@ public class PlayerDetection : MonoBehaviour
 
             case "NPC":
             {
+                NearNpc = true;
+
                 DialogInfo Info = other.gameObject.GetComponent<DialogInfo>();
                 typewriter.StartTalking(Info);
 
