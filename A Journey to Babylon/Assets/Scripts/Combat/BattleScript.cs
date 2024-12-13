@@ -10,6 +10,8 @@ public class BattleScript : MonoBehaviour
     [SerializeField] GameObject AlliesContainer;
     [SerializeField] GameObject EnemiesContainer;
     [SerializeField] TMP_Text GameState_Text;
+    [Header("Required")]
+    [SerializeField] SceneLoader SwitchScene;
 
     [Header("External Settings")]
     [SerializeField] float ContainerSize;
@@ -170,6 +172,14 @@ public class BattleScript : MonoBehaviour
         if(BattleQueue[Current].Type == "Defend") Debug.Log("Defend");
 
         GameState_Text.text = PersonHit.name + "'s Turn";
+
+        //check if they dead
+        Stats PersonHitStats = PersonHit.GetComponent<Stats>();
+        Debug.Log(PersonHitStats.Health);
+        if(PersonHitStats.Health <= 0)
+        {
+            SwitchScene.LoadScene(3);            
+        }
 
         BattleQueue.Remove(BattleQueue[Current]);
     }

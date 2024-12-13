@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
 public class PlayerDetection : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class PlayerDetection : MonoBehaviour
 
     [Header("Info")]
     [SerializeField] bool NearNpc;
+    [SerializeField] Collider2D DetectedCollider;
 
     void Start()
     {
@@ -25,9 +27,24 @@ public class PlayerDetection : MonoBehaviour
         SceneChanger = SceneObject.GetComponent<SceneLoader>(); 
     }
 
+    void Update()
+    {
+        //weird way but I thijnk it's the best way
+        //also this is for the dialog
+        if(NearNpc && InputSystem.actions.FindAction("Interact").ReadValue<float>() > 0)
+        {
+            DialogInfo Info = DetectedCollider.gameObject.GetComponent<DialogInfo>();
+            typewriter.StartTalking(Info);
+
+            AddItemsInfo? Info1 = DetectedCollider.gameObject.GetComponent<AddItemsInfo>();
+            if(Info1 != null) ItemsGive.AddItem(Info1);
+        }
+    }
+
     private void OnTriggerExit2D(Collider2D other)
     {
         string tag = other.tag;
+        DetectedCollider = null;
 
         switch(tag)
         {
@@ -57,6 +74,7 @@ public class PlayerDetection : MonoBehaviour
         }
 
         string tag = other.tag;
+        DetectedCollider = other;
 
         switch(tag)
         {
@@ -72,12 +90,6 @@ public class PlayerDetection : MonoBehaviour
             case "NPC":
             {
                 NearNpc = true;
-
-                DialogInfo Info = other.gameObject.GetComponent<DialogInfo>();
-                typewriter.StartTalking(Info);
-
-                AddItemsInfo? Info1 = other.gameObject.GetComponent<AddItemsInfo>();
-                if(Info1 != null) ItemsGive.AddItem(Info1);
                 break;
             }
 
@@ -97,7 +109,7 @@ public class PlayerDetection : MonoBehaviour
 
             default:
                 Debug.Log("unable to find tag");
-                break; 
+                break;
         }
     }
 }
