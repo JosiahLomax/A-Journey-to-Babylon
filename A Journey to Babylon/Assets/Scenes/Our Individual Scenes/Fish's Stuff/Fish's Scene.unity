@@ -681,6 +681,7 @@ MonoBehaviour:
   AlliesContainer: {fileID: 643605624}
   EnemiesContainer: {fileID: 2008427807}
   GameState_Text: {fileID: 588841497}
+  SwitchScene: {fileID: 1010452690}
   ContainerSize: 8
   Player: {fileID: 3694376181593512862, guid: ec93c911a6ea550448fd06083ec72760, type: 3}
   Allies:
@@ -691,6 +692,7 @@ MonoBehaviour:
   BattleQueue: []
   CurrentMobTurn: {x: 0, y: 0}
   CurrentlyPlaying: 0
+  PlayerTurn: 0
   EnemyAction:
     m_PersistentCalls:
       m_Calls:
@@ -1051,7 +1053,7 @@ Transform:
   m_GameObject: {fileID: 643605624}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: -1, z: 0}
+  m_LocalPosition: {x: 7, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1347,6 +1349,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb2c0bb902d3da0449056d4dab07d6a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1010452690 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3629029896259232050, guid: 9a5037c097772cc47bb9ecda1c96b263, type: 3}
+  m_PrefabInstance: {fileID: 2690388455054133773}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94a98beaccc36ba4e8ebef4385a994c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1019761885
@@ -1973,7 +1986,7 @@ Transform:
   m_GameObject: {fileID: 2008427807}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: -1, z: 0}
+  m_LocalPosition: {x: -7, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
