@@ -16,11 +16,11 @@ public class Typewriter : MonoBehaviour
 
     // below are the uhhh necessary stuff
 	DialogInfo _text;
-	string Writer;
-    string CurrentWrite;
+	string Writer, CurrentWrite;
     int CurrentDialog;
-    public bool AlreadyTalking;
+    public bool AlreadyTalking, ReadyForNextLine;
     [Header("Settings")]
+    [SerializeField] bool WaitForDialog;
 	[SerializeField] float timeBtwChars = 0.1f;
 	[SerializeField] float timeBtwDialogs = 2f;
 
@@ -35,6 +35,11 @@ public class Typewriter : MonoBehaviour
         CurrentWrite = _text.Dialog[CurrentDialog].Words;
         Parent.SetBool("Appear", true);
         StartCoroutine("DisplayText");
+    }
+
+    public void KeyMidDialog()
+    {
+        StartNext();
     }
 
     IEnumerator DisplayText()
@@ -54,11 +59,17 @@ public class Typewriter : MonoBehaviour
             _tmpProText.text = Writer;
         }
 
-        StartCoroutine("TimeAfterText");
+        if(WaitForDialog) StartCoroutine("TimeAfterText");
+        if(!WaitForDialog) Debug.Log("Waiting for Input");
     }
     IEnumerator TimeAfterText()
     {
         yield return new WaitForSeconds(timeBtwDialogs);
+        StartNext(); 
+    }
+
+    void StartNext()
+    {
         CurrentDialog++;
         if(CurrentDialog < _text.Dialog.Count)
         {
