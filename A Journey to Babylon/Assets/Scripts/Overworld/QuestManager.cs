@@ -8,9 +8,11 @@ public class QuestManager : MonoBehaviour
 {
     [SerializeField] TMP_Text MainQuestText;
     [SerializeField] List<TMP_Text> SubQuestObjects;
+    [SerializeField] List<string> QuestObjectives;
+    [SerializeField] string MainQuest;
     void Start()
     {
-        SetQuest("Become epic murderer", new List<string> {"murder 10 kids", "Murder 5 dogs", "murder 1 rock"});
+        SetQuest(MainQuest, QuestObjectives);
     }
     
     public void SetQuest(string MainQuest, List<string> SubQuest)

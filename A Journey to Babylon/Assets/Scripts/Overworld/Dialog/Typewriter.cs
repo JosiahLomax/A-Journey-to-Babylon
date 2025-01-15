@@ -32,6 +32,9 @@ public class Typewriter : MonoBehaviour
         _text = SentDialog;
 
         CurrentDialog = 0;
+
+        if(SentDialog == null) return;
+
         CurrentWrite = _text.Dialog[CurrentDialog].Words;
         Parent.SetBool("Appear", true);
         StartCoroutine("DisplayText");

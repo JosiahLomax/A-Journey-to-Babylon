@@ -1587,7 +1587,7 @@ MonoBehaviour:
   Audio: {fileID: 2574269000508047152}
   AlreadyTalking: 0
   ReadyForNextLine: 0
-  WaitOrTouch: 1
+  WaitForDialog: 0
   timeBtwChars: 0.1
   timeBtwDialogs: 2
 --- !u!1 &6386825776013768158
@@ -1711,6 +1711,8 @@ MonoBehaviour:
   - {fileID: 8106636795066233897}
   - {fileID: 6709936044393449114}
   - {fileID: 8149834932294359987}
+  QuestObjectives: []
+  MainQuest: Become epic
 --- !u!1 &6603693096857882730
 GameObject:
   m_ObjectHideFlags: 0
