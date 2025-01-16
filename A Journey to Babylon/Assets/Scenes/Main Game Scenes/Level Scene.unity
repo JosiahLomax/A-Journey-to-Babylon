@@ -5155,7 +5155,34 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1227032111}
   dialogueText: {fileID: 448323326}
   dialogue:
-  - Hi!
+  - 'Inkeeper: I''m suprised to see anyone out and about tonight'
+  - 'Inkeeper: especially after seeing that weird display in the sky.'
+  - 'Inkeeer: How are you on this...interesting evening? '
+  - 'Rosalie: I''m well thanks, quite exhausted fom traveling all day. '
+  - 'Rosalie: I''m well thanks, quite exhausted fom traveling all day. '
+  - 'Rosalie: Might you have a room available for rent for the night? '
+  - 'Inkeeper: Certainly!'
+  - 'Inkeeper: There''s a cozy room just down the hall with your name on it.'
+  - 'Rosalie: That''s great! How much do I owe you?'
+  - 'Inkeeper: A single room would be 8 coins please!'
+  - 'Inkeeper: A single room would be 8 coins please!'
+  - 'Rosalie: ...'
+  - 'Rosalie: *Seems I only have two left over from earlier...'
+  - 'Inkeeper: Not enough? Hmmm...'
+  - 'Inkeeper: How about this.'
+  - 'Inkeeper: I can''t just kick you out into the cold...especially not tonight. '
+  - 'Inkeeper: So, I''ll lower the price to 5 coins. How''s that sound?'
+  - 'Rosalie: Really!? That''d be great but...'
+  - 'Inkeeper: Don''t worry!'
+  - 'Inkeeper: if you head down the path and take the first right, you''ll find a
+    merchant house.'
+  - 'Inkeeper: My friend Mand runs the place.'
+  - 'Inkeeper: He''s an older gentleman and looks kind of scary, but he has a real
+    generous soul.'
+  - 'Inkeeper: Tell him Areli sent you.'
+  - 'Areli: If you can find something to trade, he might throw in a little extra
+    for you!'
+  - 'Rosalie: Thanks Areli, I''ll be quick!'
   wordSpeed: 0.05
   playerIsClose: 0
 --- !u!70 &1236774867
