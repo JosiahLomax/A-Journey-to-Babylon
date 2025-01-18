@@ -168,8 +168,9 @@ public class BattleScript : MonoBehaviour
         GameState_Text.text = PersonCast.name + "'s Turn";
 
         Debug.Log("Dealt:" + CastStat.Attack.ToString());
+
         if(BattleQueue[Current].Type == "Attack") HitStat.Damage(CastStat.Attack);
-        if(BattleQueue[Current].Type == "Defend") Debug.Log("Defend");
+        if(BattleQueue[Current].Type == "Defend") CastStat.DefendFlag = true;
 
         GameState_Text.text = PersonHit.name + "'s Turn";
 

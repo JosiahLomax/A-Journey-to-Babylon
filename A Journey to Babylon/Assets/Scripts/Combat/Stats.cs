@@ -10,6 +10,7 @@ public class Stats : MonoBehaviour
     public int Attack;
     public List<string> Status;
     public List<MagicMoves> Moves;
+    public bool DefendFlag;
     [Header("Health Bar")]
     public Slider Bar;
 
@@ -28,6 +29,8 @@ public class Stats : MonoBehaviour
     
     public void Damage(int x)
     {
+        if(DefendFlag) {DefendFlag ^= true; return;}
+
         Health -= x;
         if(Health <= 0)
         {
