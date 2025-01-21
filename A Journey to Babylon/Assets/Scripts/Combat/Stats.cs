@@ -29,9 +29,11 @@ public class Stats : MonoBehaviour
     
     public void Damage(int x)
     {
-        if(DefendFlag) {DefendFlag ^= true; return;}
-
+        if(DefendFlag) DefendFlag = !DefendFlag;
         Health -= x;
+
+        if(Bar == null) return;
+
         if(Health <= 0)
         {
             Bar.value = 0;

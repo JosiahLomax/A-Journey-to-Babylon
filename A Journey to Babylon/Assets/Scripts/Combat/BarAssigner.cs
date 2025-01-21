@@ -15,10 +15,13 @@ public class BarAssigner : MonoBehaviour
     {
         //I know I know it's a fucking find function ;-;
         GameObject BarObject = GameObject.Find("ActionsUI/Slider");
-        if(BarObject == null) Debug.Log("Slider Can't be found");
-        HealthBar = BarObject.gameObject.GetComponent<Slider>();
+        if(BarObject != null)
+        {
+            HealthBar = BarObject.gameObject.GetComponent<Slider>();
 
-        Assigned.Bar = HealthBar;
-        Assigned.UpdateHealth(Assigned.Health); 
+            Assigned.Bar = HealthBar;
+            Assigned.UpdateHealth(Assigned.Health); 
+        }
+
     }
 }
