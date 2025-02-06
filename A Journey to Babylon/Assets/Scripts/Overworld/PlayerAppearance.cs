@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerAppearance : MonoBehaviour
 {
     [SerializeField] SpriteRenderer Sprite;
+    [SerializeField] Animator PlayerAnimator;
     private InputAction MoveAction;
 
     void Start()
@@ -17,11 +18,17 @@ public class PlayerAppearance : MonoBehaviour
         //flip when walking
         if(MoveAction.ReadValue<Vector2>().x < 0)
         {
+            PlayerAnimator.SetBool("Walking", true);
             Sprite.flipX = true;
         }
         else if(MoveAction.ReadValue<Vector2>().x > 0)
         {
+            PlayerAnimator.SetBool("Walking", true);
             Sprite.flipX = false;
+        }
+        else
+        {
+            PlayerAnimator.SetBool("Walking", false);
         }
     }
 }

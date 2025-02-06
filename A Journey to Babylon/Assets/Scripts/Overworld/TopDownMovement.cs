@@ -9,16 +9,17 @@ public class TopDownMovement : MonoBehaviour
 
     float horizontal;
     float vertical;
-
     public float runSpeed = 20.0f;
+    private InputAction MoveAction;
+    void Start()
+    {
+        MoveAction = InputSystem.actions.FindAction("Move");
+    }
 
     void Update()
     {
-        InputAction MoveAction = InputSystem.actions.FindAction("Move");
-
         horizontal = MoveAction.ReadValue<Vector2>().x;
         vertical = MoveAction.ReadValue<Vector2>().y;
-
     }
 
     void FixedUpdate()
