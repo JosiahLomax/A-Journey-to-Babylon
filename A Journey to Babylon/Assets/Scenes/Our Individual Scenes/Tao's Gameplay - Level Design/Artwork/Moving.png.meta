@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 71c48463439ca4a47a3298228cf1124c
+guid: e74a80e53400f7240a0d9e1855e7ceb6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fence Ruletile_0
+      name: Moving_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 16
-        height: 16
+        x: 7
+        y: 70
+        width: 17
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 544f218ae7948414381f495365590bc4
-      internalID: -1528651290
+      spriteID: 6bd10b53f6d2ef741957392bd57c8ef9
+      internalID: -940951615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fence Ruletile_1
+      name: Moving_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 16
-        height: 16
+        x: 38
+        y: 70
+        width: 17
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5fe987d51877d4428f17f412ff16602
-      internalID: -1069128631
+      spriteID: e0feee13356eb084d95185f43a85008b
+      internalID: -338135249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fence Ruletile_2
+      name: Moving_2
       rect:
         serializedVersion: 2
-        x: 48
-        y: 64
-        width: 16
-        height: 16
+        x: 71
+        y: 69
+        width: 17
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26690acc19ac3694a8e4e8b244980e12
-      internalID: -1501203483
+      spriteID: 302e569d63cb2bb4996ad7557b7b07cc
+      internalID: 1760191171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fence Ruletile_3
+      name: Moving_3
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 16
-        height: 16
+        x: 102
+        y: 69
+        width: 17
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 454fe234a44284142badfc96bc580c24
-      internalID: -255741185
+      spriteID: 6497adab361ed4d4fae53d7633eca795
+      internalID: 819218909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fence Ruletile_4
+      name: Moving_4
       rect:
         serializedVersion: 2
-        x: 80
-        y: 64
-        width: 16
-        height: 16
+        x: 9
+        y: 38
+        width: 14
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cda06d8826ebaeb4cb30ad48c81d969a
-      internalID: 1338751310
+      spriteID: 7894358b04eadf44890e2dd75fec3bef
+      internalID: -1520187922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fence Ruletile_5
+      name: Moving_5
       rect:
         serializedVersion: 2
-        x: 112
-        y: 64
-        width: 16
-        height: 16
+        x: 42
+        y: 38
+        width: 14
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ada34e19d3b08b5439827845e5e7074c
-      internalID: -1918186770
+      spriteID: e7730a558fcd7b04d80f9ea2e3ff3f18
+      internalID: -852687439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fence Ruletile_6
+      name: Moving_6
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 16
-        height: 16
+        x: 73
+        y: 38
+        width: 14
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 537f9f889c1b7344a9596d77c672bcf9
-      internalID: -627933322
+      spriteID: 2208128bd7c2d784fb01ba7596f184e3
+      internalID: 1924406461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fence Ruletile_7
+      name: Moving_7
       rect:
         serializedVersion: 2
-        x: 144
-        y: 64
-        width: 16
-        height: 16
+        x: 104
+        y: 38
+        width: 14
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 348f7d145a63c044fb7322d9d0e2a54b
-      internalID: 1287172396
+      spriteID: 12002d41fe43762419cf7f22877a5e07
+      internalID: -361098185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fence Ruletile_8
+      name: Moving_8
       rect:
         serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
+        x: 8
+        y: 5
+        width: 14
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,20 +279,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27cd759ab1fa7ba42904a7a7f3becd8e
-      internalID: 1771345916
+      spriteID: 000127785e344b44eb39481dc154920e
+      internalID: -839192945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fence Ruletile_9
+      name: Moving_9
       rect:
         serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
+        x: 41
+        y: 5
+        width: 14
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,20 +300,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a71a95efd2b17ed4b878ff1ccfa0da82
-      internalID: 823052100
+      spriteID: b13b68e01355ca740b750e2f4a2d3ce1
+      internalID: -736526134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fence Ruletile_10
+      name: Moving_10
       rect:
         serializedVersion: 2
-        x: 64
-        y: 48
-        width: 16
-        height: 16
+        x: 74
+        y: 5
+        width: 14
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,20 +321,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce17373b2e921484ab9d6bebae039aaf
-      internalID: 584403430
+      spriteID: defc68b934451b247ae38c115d515e18
+      internalID: 1555054068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fence Ruletile_11
+      name: Moving_11
       rect:
         serializedVersion: 2
-        x: 80
-        y: 48
-        width: 16
-        height: 16
+        x: 105
+        y: 5
+        width: 14
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,113 +342,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e94345016b151eb458e6f5309fd4faab
-      internalID: -1269473656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fence Ruletile_12
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39a8d14b8981b4446a4b72f258665202
-      internalID: -113234492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fence Ruletile_13
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 732841897c165244fb20de8f0ce1c61d
-      internalID: -1143915769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fence Ruletile_14
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bac2c1f753a5df84d9053725e674b283
-      internalID: -1414432915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fence Ruletile_15
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13187b2147b0e4c46950b5d4a6bb9d60
-      internalID: -577557139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fence Ruletile_16
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b92f3cff04e359e47bb4dfe04bcbe68a
-      internalID: -1709941280
+      spriteID: 0cd8d6a7d75bf0748bd677aaeb2ddf9c
+      internalID: 1477341203
       vertices: []
       indices: 
       edges: []
@@ -464,23 +359,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fence Ruletile_0: -1528651290
-      Fence Ruletile_1: -1069128631
-      Fence Ruletile_10: 584403430
-      Fence Ruletile_11: -1269473656
-      Fence Ruletile_12: -113234492
-      Fence Ruletile_13: -1143915769
-      Fence Ruletile_14: -1414432915
-      Fence Ruletile_15: -577557139
-      Fence Ruletile_16: -1709941280
-      Fence Ruletile_2: -1501203483
-      Fence Ruletile_3: -255741185
-      Fence Ruletile_4: 1338751310
-      Fence Ruletile_5: -1918186770
-      Fence Ruletile_6: -627933322
-      Fence Ruletile_7: 1287172396
-      Fence Ruletile_8: 1771345916
-      Fence Ruletile_9: 823052100
+      Moving_0: -940951615
+      Moving_1: -338135249
+      Moving_10: 1555054068
+      Moving_11: 1477341203
+      Moving_2: 1760191171
+      Moving_3: 819218909
+      Moving_4: -1520187922
+      Moving_5: -852687439
+      Moving_6: 1924406461
+      Moving_7: -361098185
+      Moving_8: -839192945
+      Moving_9: -736526134
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

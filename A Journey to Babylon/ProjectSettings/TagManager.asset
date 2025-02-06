@@ -45,8 +45,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Building Layer
+  - name: Building Layer 0
     uniqueID: 1442570191
+    locked: 0
+  - name: Building Layer 1
+    uniqueID: 3980731569
     locked: 0
   - name: Item Layer
     uniqueID: 2200587289
