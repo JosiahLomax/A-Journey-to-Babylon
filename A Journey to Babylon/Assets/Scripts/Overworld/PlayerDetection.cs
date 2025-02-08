@@ -87,6 +87,12 @@ public class PlayerDetection : MonoBehaviour
                 break;
             }
 
+            case "DreamSequence":
+            {
+                SceneChanger.LoadScene(3);
+                break;
+            }
+
             case "NPC":
             {
                 NearNpc = true;
