@@ -1534,12 +1534,13 @@ MonoBehaviour:
   dialogueText: {fileID: 2038864940}
   dialogue:
   - 'Innkeeper: It''s surprising to see anyone out and about tonight after what happened. '
-  - 'Rosalie: I was hoping you might have an available room to rent for the night? '
+  - 'Rosalie Nehrai: I was hoping you might have an available room to rent for the
+    night? '
   - 'Innkeeper: Sure do, there''s a cozy room just down the hall with your name on
     it. '
-  - 'Rosalie: That''s great! How much would I owe you?'
+  - 'Rosalie Nehrai: That''s great! How much would I owe you?'
   - 'Innkeeper: A single room would be 8 coins for the night. '
-  - 'Rosalie: ...'
+  - 'Rosalie Nehrai: ...'
   - '*Rosalie looks in her coin pouch to find only two coins*'
   - 'Innkeeper: Don''t have enough?'
   - 'Innkeeper: Hmmm...'
@@ -1547,7 +1548,7 @@ MonoBehaviour:
   - 'Innkeeper: I can''t kick you out in the cold, especially not this evening. '
   - 'Innkeeper: So, I''ll lower the price to 5 coins. '
   - 'Inkeeper: How''s that sound?'
-  - 'Rosalie: That''s generous of you but...'
+  - 'Rosalie Nehrai: That''s generous of you but...'
   - 'Innkeeper: Don''t worry!'
   - 'Innkeeper: If you head back into the square and walk south a little ways you''ll
     find a merchant''s house.'
@@ -1557,21 +1558,21 @@ MonoBehaviour:
   - 'Innkeeper: Tell him Areli sent you.'
   - 'Areli Avhallen: He might even throw in a few extra coins if you have something
     to trade!'
-  - 'Rosalie: Really!? Thanks for the directions!'
+  - 'Rosalie Nehrai: Really!? Thanks for the directions!'
   - '*You choose to give her the outpost guard''s message*'
-  - 'Rosalie: I almost forgot!'
-  - 'Rosalie: I ran into your husband on my way to the village.'
-  - 'Rosalie: He says not to worry, he''ll be home as soon as he can. '
+  - 'Rosalie Nehrai: I almost forgot!'
+  - 'Rosalie Nehrai: I ran into your husband on my way to the village.'
+  - 'Rosalie Nehrai: He says not to worry, he''ll be home as soon as he can. '
   - 'Areli Avhallen: Oh Arthur...'
   - 'Areli Avhallen: Truth is I''ve been worried sick about him.'
   - 'Areli Avhallen: I can''t seem to shake the chills I got from seeing that weird
     phenomemon in the sky. '
-  - 'Rosalie: I know what you mean, I still haven''t processed it myself. '
+  - 'Rosalie Nehrai: I know what you mean, I still haven''t processed it myself. '
   - 'Areli Avhallen: What''s your name miss? '
-  - 'Rosalie: It''s Rosalie, Rosalie Nehrai.'
+  - 'Rosalie Nehrai: It''s Rosalie, Rosalie Nehrai.'
   - 'Areli Avhallen: Thank you, Rosalie.'
   - 'Areli Avhallen: I needed to hear that he was okay.'
-  - 'Rosalie: Of course.'
+  - 'Rosalie Nehrai: Of course.'
   - 'Areli Avhallen: Hurry on now!'
   - 'Areli Avhallen: I''ll have a warm meal ready for when you get back, free of
     charge!'
@@ -91470,8 +91471,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 855641225}
-  dialogueText: {fileID: 2038864940}
-  dialogue: []
+  dialogueText: {fileID: 1061394572}
+  dialogue:
+  - 'Outpost Guard: I''ve never seen anything like that before!'
+  - 'Outpost Guard: The sky just...opened!'
+  - 'Rosalie Nehrai: Could it have been some kind of magic?'
+  - 'Outpost Guard: There''s no magic stone I''ve heard of that could do something
+    like that.'
+  - 'Outpost Guard: It''s like the sky was cut with a blade.'
+  - 'Rosalie Nehrai: And the light and clouds...'
+  - 'Rosalie Nehrai: It looked like they were coming from some other world.'
+  - 'Outpost Guard: Listen, if you continue straight along this path behind me, you''ll
+    reach Autumn''s Rest shortly.'
+  - 'Outpost Guard: Try to get indoors as soon as possible.'
+  - 'Outpost Guard: That light was unsettling. '
+  - 'Rosalie Nehrai: Thanks, be careful out here. '
+  - 'Outpost Guard: One more thing.'
+  - 'Outpost Guard: In the village there''s an inn. My wife works as the innkeeper
+    there. '
+  - 'Outpost Guard: Sorry to ask, but could you give her a message for me?'
+  - 'Outpost Guard: Please, tell her not to wait up for me.'
+  - 'Outpost Guard: I''ll try to be home as soon as possible.'
+  - 'Outpost Guard: I appreciate it, now stay safe!'
+  - '*Rosalie waves goodbye and follows the path to the village of Autumn''s Rest.*'
   index: 0
   wordSpeed: 0.05
   playerIsClose: 0
@@ -93175,13 +93197,13 @@ MonoBehaviour:
   dialoguePanel: {fileID: 435533187}
   dialogueText: {fileID: 1014356973}
   dialogue:
-  - 'Rosalie: You must be Mand!'
+  - 'Rosalie Nehrai: You must be Mand!'
   - 'Mand the Merchant: Dependin'' on who''s askin''.'
   - 'Mand the Merchant: In any case, shop is closed for the night. Come back first
     thing in the mornin''.  '
-  - 'Rosalie: I don''t mean to be a bother, I was just hoping to make a quick trade
-    to help pay for a room at the inn.'
-  - 'Rosalie: Areli gave me a generous discount and pointed me in your direction.'
+  - 'Rosalie Nehrai: I don''t mean to be a bother, I was just hoping to make a quick
+    trade to help pay for a room at the inn.'
+  - 'Rosalie Nehrai: Areli gave me a generous discount and pointed me in your direction.'
   - 'Mand the Merchant: Areli huh? '
   - 'Mand the Merchant: She''s a kind gal.'
   - 'Mand the Merchant: Hmm...'
@@ -93189,8 +93211,9 @@ MonoBehaviour:
     I''ll make an exception. '
   - 'Mand the Merchant: What are you lookin'' to trade?'
   - '*Rosalie pulls out a necklace from her travel pack*'
-  - 'Rosalie: While I was moving through the Grasslands, I found this necklace.'
-  - 'Rosalie: It was laying at the foot of a large tree in the middle of a glade.'
+  - 'Rosalie Nehrai: While I was moving through the Grasslands, I found this necklace.'
+  - 'Rosalie Nehrai: It was laying at the foot of a large tree in the middle of a
+    glade.'
   - 'Mand the Merchant: Can''t say I''ve ever seen anything like this symbol before...'
   - 'Mand the Merchant: The craftsmanship is real elegant. '
   - 'Mand the Merchant: Said you found this in the Grasslands huh? '
@@ -93199,21 +93222,21 @@ MonoBehaviour:
   - 'Mand the Merchant: Looks like this necklace could''ve come from outside of outside
     Silva Atherea.'
   - 'Mand the Merchant: But there''re also some familiar aspects to it''s design...'
-  - 'Rosalie: It was precious to somebody, somewhere. '
-  - 'Rosalie: I feel bad selling it but...'
+  - 'Rosalie Nehrai: It was precious to somebody, somewhere. '
+  - 'Rosalie Nehrai: I feel bad selling it but...'
   - 'Mand the Merchant: Won''t get any judgment from me. '
   - '*Rosalie asks about the sky phenomenon*'
-  - 'Rosalie: Hey, did you see that stuff in the sky earlier?'
+  - 'Rosalie Nehrai: Hey, did you see that stuff in the sky earlier?'
   - 'Mand the Merchant: Was hard to miss.'
-  - 'Rosalie: I wonder if it was some sort of magic...'
+  - 'Rosalie Nehrai: I wonder if it was some sort of magic...'
   - 'Mand the Merchant: I don''t even think the "great minds" of Babylon could do
     somethin'' like that.'
   - 'Mand the Merchant: Not unless they found some kind of new magic stone.'
-  - 'Rosalie: If not magic, then what do you think might''ve caused it?'
+  - 'Rosalie Nehrai: If not magic, then what do you think might''ve caused it?'
   - 'Mand the Merchant: Somethin'' else entirely. '
   - 'Mand the Merchant: Looked like it all happend right above the forest.'
   - '*Rosalie asks more about Silva Aetherea*'
-  - 'Rosalie: Could you tell me more about Silva Aetherea?'
+  - 'Rosalie Nehrai: Could you tell me more about Silva Aetherea?'
   - 'Mand the Merchant: From the edge of the Grasslands in the South.... '
   - 'Mand the Merchant: All the way to the ocean in the North...'
   - 'Mand the Merchant: It''s all considered the "The Land of Silva Aetherea".'
@@ -93221,10 +93244,10 @@ MonoBehaviour:
   - 'Mand the Merchant: The first civilization here popped up thousands of years
     ago. '
   - 'Mand the Merchant: They''re the ones that named it. '
-  - 'Rosalie: "Silva Aetherea"...'
-  - 'Rosalie: What does it mean? '
+  - 'Rosalie Nehrai: "Silva Aetherea"...'
+  - 'Rosalie Nehrai: What does it mean? '
   - 'Mand the Merchant: "Ethereal Forest".'
-  - 'Rosalie: Ethereal?'
+  - 'Rosalie Nehrai: Ethereal?'
   - 'Mand the Merchant: It''s said the people of that civilization worshipped the
     forest. '
   - 'Mand the Merchant: Couldn''t tell you why.'
@@ -93238,10 +93261,10 @@ MonoBehaviour:
     just out of view...'
   - 'Mand the Merchant: If you''re plannin'' on goin'' through there soon, be careful. '
   - 'Mand the Merchant: ''Specially with that sky nonsense earlier. '
-  - 'Rosalie: Thanks, I''ll keep that in mind. '
+  - 'Rosalie Nehrai: Thanks, I''ll keep that in mind. '
   - 'Mand the Merchant: Anyway, you should get goin'' soon, it''s gettin'' real late.'
-  - 'Rosalie: You''re right, don''t want to keep Areli waiting too long.'
-  - 'Rosalie: Thanks for the help sir!'
+  - 'Rosalie Nehrai: You''re right, don''t want to keep Areli waiting too long.'
+  - 'Rosalie Nehrai: Thanks for the help sir!'
   - 'Mand the Merchant: Call me Mand kid, and no problem.'
   - 'Mand the Merchant: Give Areli my best regards. '
   - '*Mand the Merchant pays Rosalie for the unique necklace with a few extra coins
