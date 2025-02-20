@@ -1573,7 +1573,8 @@ MonoBehaviour:
   - 'Areli Avhallen: I needed to hear that he was okay.'
   - 'Rosalie: Of course.'
   - 'Areli Avhallen: Hurry on now!'
-  - 'Areli Avhallen: I''ll have a warm mel ready for when you get back, free of charge!'
+  - 'Areli Avhallen: I''ll have a warm meal ready for when you get back, free of
+    charge!'
   - 'Areli Avhallen: Be careful out there. '
   index: 0
   wordSpeed: 0.05
@@ -91642,7 +91643,7 @@ Transform:
   m_GameObject: {fileID: 1786165317}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.643, y: 3.744, z: 0}
+  m_LocalPosition: {x: 1.08, y: -0.38, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -93177,65 +93178,70 @@ MonoBehaviour:
   - 'Rosalie: You must be Mand!'
   - 'Mand the Merchant: Dependin'' on who''s askin''.'
   - 'Mand the Merchant: In any case, shop is closed for the night. Come back first
-    thing in the mornin'', you could be my first customer. '
+    thing in the mornin''.  '
   - 'Rosalie: I don''t mean to be a bother, I was just hoping to make a quick trade
     to help pay for a room at the inn.'
   - 'Rosalie: Areli gave me a generous discount and pointed me in your direction.'
-  - 'Mand the Merchant: Areli huh? She''s a kind gal. '
+  - 'Mand the Merchant: Areli huh? '
+  - 'Mand the Merchant: She''s a kind gal.'
   - 'Mand the Merchant: Hmm...'
   - 'Mand the Merchant: Alright kid, I don''t usually do business at this hour but
     I''ll make an exception. '
   - 'Mand the Merchant: What are you lookin'' to trade?'
   - '*Rosalie pulls out a necklace from her travel pack*'
   - 'Rosalie: While I was moving through the Grasslands, I found this necklace.'
-  - 'Rosalie: It was laying at the foot of a large tree in a glade.'
-  - 'Mand the Merchant: Can''t say I''ve ever seen anything like this symbol...'
-  - 'Mand the Merchant: The craftsmanship is elegant. '
-  - 'Mand the Merchant: Found this in the Grasslands huh? '
+  - 'Rosalie: It was laying at the foot of a large tree in the middle of a glade.'
+  - 'Mand the Merchant: Can''t say I''ve ever seen anything like this symbol before...'
+  - 'Mand the Merchant: The craftsmanship is real elegant. '
+  - 'Mand the Merchant: Said you found this in the Grasslands huh? '
   - 'Mand the Merchant: It''s rare but I''ve had foreign objects come through my
-    shop before. This necklace looks like it could come from another land outside
-    Silva Aetherea. '
-  - 'Mand the Merchant: But there''s also some familiar aspects to it. '
-  - 'Rosalie: It was precious to somebody somewhere. '
-  - 'Rosalie: I feel a bit bad selling it but...'
+    shop before.'
+  - 'Mand the Merchant: Looks like this necklace could''ve come from outside of outside
+    Silva Atherea.'
+  - 'Mand the Merchant: But there''re also some familiar aspects to it''s design...'
+  - 'Rosalie: It was precious to somebody, somewhere. '
+  - 'Rosalie: I feel bad selling it but...'
   - 'Mand the Merchant: Won''t get any judgment from me. '
   - '*Rosalie asks about the sky phenomenon*'
   - 'Rosalie: Hey, did you see that stuff in the sky earlier?'
   - 'Mand the Merchant: Was hard to miss.'
   - 'Rosalie: I wonder if it was some sort of magic...'
-  - 'Mand the Merchant: I don''t think even the "great minds" of Babylon could do
+  - 'Mand the Merchant: I don''t even think the "great minds" of Babylon could do
     somethin'' like that.'
-  - 'Mand the Merchant: Not unless they found some kinda new magic stone. .'
+  - 'Mand the Merchant: Not unless they found some kind of new magic stone.'
   - 'Rosalie: If not magic, then what do you think might''ve caused it?'
-  - 'Mand the Merchant: Somethin'' else entirely. Looked like it all happend right
-    above the forest of Silva Aetherea. '
+  - 'Mand the Merchant: Somethin'' else entirely. '
+  - 'Mand the Merchant: Looked like it all happend right above the forest.'
   - '*Rosalie asks more about Silva Aetherea*'
   - 'Rosalie: Could you tell me more about Silva Aetherea?'
-  - 'Mand the Merchant: From the edge of the Grasslands in the South all the way
-    to the ocean in the North is considered the "The Land of Silva Aetherea". '
-  - 'Mand the Merchant: It''s one giant forest, full of all kinds of history. '
-  - 'Mand the Merchant: The oldest civilization we know of in these lands called
-    it home thousands of years ago. '
-  - 'Mand the Merchant: They''re the onse that named it. '
-  - 'Rosalie: "Silva Aetherea"...what does it mean? '
-  - 'Mand the Merchant: "Ethereal Forest"'
+  - 'Mand the Merchant: From the edge of the Grasslands in the South.... '
+  - 'Mand the Merchant: All the way to the ocean in the North...'
+  - 'Mand the Merchant: It''s all considered the "The Land of Silva Aetherea".'
+  - 'Mand the Merchant: One giant forest, full of history. '
+  - 'Mand the Merchant: The first civilization here popped up thousands of years
+    ago. '
+  - 'Mand the Merchant: They''re the ones that named it. '
+  - 'Rosalie: "Silva Aetherea"...'
+  - 'Rosalie: What does it mean? '
+  - 'Mand the Merchant: "Ethereal Forest".'
   - 'Rosalie: Ethereal?'
-  - 'Mand the Merchant: It''s said the people of that civilization almost worshipped
-    the forest. '
-  - 'Mand the Merchant: Couldn''t tell you why. You''d have to ask some historian
-    or somethin''.'
+  - 'Mand the Merchant: It''s said the people of that civilization worshipped the
+    forest. '
+  - 'Mand the Merchant: Couldn''t tell you why.'
+  - 'Mand the Merchant: You''d have to ask some historian or somethin''.'
   - 'Mand the Merchant: What I can tell you is this...'
   - 'Mand the Merchant: When there''s no one else around, and you''re standin'' deep
     in the forest...'
   - 'Mand the Merchant: There''s a sort of presence you start to feel.'
-  - 'Mand the Merchant: You''re head tells you you''re all alone, but your senses
-    tell you you''re surrounded by somethin'' just out of view. '
-  - 'Mand the Merchant: If you''re plannin'' on going through there soon, be careful.
-    ''Specially with that sky nonsense earlier. '
+  - 'Mand the Merchant: You''re head tells you you''re all alone.'
+  - 'Mand the Merchant: But your senses tell you that you''re surrounded by somethin''
+    just out of view...'
+  - 'Mand the Merchant: If you''re plannin'' on goin'' through there soon, be careful. '
+  - 'Mand the Merchant: ''Specially with that sky nonsense earlier. '
   - 'Rosalie: Thanks, I''ll keep that in mind. '
   - 'Mand the Merchant: Anyway, you should get goin'' soon, it''s gettin'' real late.'
-  - 'Rosalie: You''re right, don''t want to keep Areli waiting too long. Thanks for
-    the help sir!'
+  - 'Rosalie: You''re right, don''t want to keep Areli waiting too long.'
+  - 'Rosalie: Thanks for the help sir!'
   - 'Mand the Merchant: Call me Mand kid, and no problem.'
   - 'Mand the Merchant: Give Areli my best regards. '
   - '*Mand the Merchant pays Rosalie for the unique necklace with a few extra coins
