@@ -1383,12 +1383,12 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 70.90534, y: 386.2751}
-    canvasZoom: 0.6700003
+    canvasScrollPosition: {x: 0, y: 10}
+    canvasZoom: 1.2699993
   - id: 2
     fields:
     - title: Title
-      value: New Conversation 2
+      value: Conversation to Merchant
       type: 0
       typeString: 
     - title: Description
