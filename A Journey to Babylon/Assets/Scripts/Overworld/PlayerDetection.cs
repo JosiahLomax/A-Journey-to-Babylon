@@ -31,14 +31,16 @@ public class PlayerDetection : MonoBehaviour
     {
         //weird way but I thijnk it's the best way
         //also this is for the dialog
-        if(NearNpc && InputSystem.actions.FindAction("Interact").ReadValue<float>() > 0)
-        {
-            DialogInfo Info = DetectedCollider.gameObject.GetComponent<DialogInfo>();
-            typewriter.StartTalking(Info);
 
-            AddItemsInfo? Info1 = DetectedCollider.gameObject.GetComponent<AddItemsInfo>();
-            if(Info1 != null) ItemsGive.AddItem(Info1);
-        }
+        //bra tao wrote another dialog script ;-; i'll keep it in but currently no value
+        //if(NearNpc && InputSystem.actions.FindAction("Interact").ReadValue<float>() > 0)
+        //{
+        //    DialogInfo Info = DetectedCollider.gameObject.GetComponent<DialogInfo>();
+        //    typewriter.StartTalking(Info);
+
+        //    AddItemsInfo? Info1 = DetectedCollider.gameObject.GetComponent<AddItemsInfo>();
+        //    if(Info1 != null) ItemsGive.AddItem(Info1);
+        //}
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -84,6 +86,12 @@ public class PlayerDetection : MonoBehaviour
                 SceneChanger.StoredBattle(Info);
 
                 SceneChanger.LoadScene(2);
+                break;
+            }
+
+            case "DreamSequence":
+            {
+                SceneChanger.LoadScene(3);
                 break;
             }
 

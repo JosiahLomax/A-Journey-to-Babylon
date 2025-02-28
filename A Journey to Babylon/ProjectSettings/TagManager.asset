@@ -8,6 +8,7 @@ TagManager:
   - NPC
   - Popup
   - Region
+  - DreamSequence
   layers:
   - Default
   - TransparentFX

@@ -39,6 +39,10 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Quit");
         Application.Quit();
     }
+    public void Resume()
+    {
+        QuitMenu.SetActive(false);
+    }
     void Update()//todo: remember to change this when making settings 
     {
         if(InputSystem.actions.FindAction("Pause").triggered)
