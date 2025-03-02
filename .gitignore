@@ -60,6 +60,9 @@ sysinfo.txt
 *.aab
 *.unitypackage
 *.unitypackage.meta
+*.controller
+*.controller.meta
+*.cs.meta
 *.app
 
 # Crashlytics generated file
