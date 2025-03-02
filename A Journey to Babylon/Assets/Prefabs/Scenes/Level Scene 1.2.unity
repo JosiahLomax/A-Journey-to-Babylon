@@ -6627,7 +6627,7 @@ MonoBehaviour:
   actor: 
   persistentDataName: 
   portrait: {fileID: 0}
-  spritePortrait: {fileID: 21300000, guid: a6790b4e8ebefab4b92f53f7f3a6a82f, type: 3}
+  spritePortrait: {fileID: 21300000, guid: 42c2b56da14c0204b849f297eec580ee, type: 3}
   audioSource: {fileID: 0}
   barkUISettings:
     barkUI: {fileID: 0}
