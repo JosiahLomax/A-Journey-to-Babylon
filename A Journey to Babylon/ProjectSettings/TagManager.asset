@@ -52,12 +52,18 @@ TagManager:
   - name: Building Layer 1
     uniqueID: 3980731569
     locked: 0
-  - name: Item Layer
+  - name: Item Layer 0
     uniqueID: 2200587289
     locked: 0
-  - name: Player Layer
+  - name: Item  Layer 1
+    uniqueID: 1130504283
+    locked: 0
+  - name: NPC Layer 0
+    uniqueID: 2371205915
+    locked: 0
+  - name: Player Layer 0
     uniqueID: 1516101731
     locked: 0
-  - name: UI Layer
+  - name: UI Layer 0
     uniqueID: 2027113001
     locked: 0

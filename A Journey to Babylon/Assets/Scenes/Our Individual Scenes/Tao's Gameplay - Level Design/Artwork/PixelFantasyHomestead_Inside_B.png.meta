@@ -1,0 +1,1214 @@
+fileFormatVersion: 2
+guid: e266e5000722fde43aa13c19329980a0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 56
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83215aabeb420f42b81fc2958aa2873
+      internalID: -959416950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 56
+        width: 28
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbbe56731488784b8fc5a851f039a80
+      internalID: -1216739232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 8
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16483102d9b91c42bc2780a8f6aed2a
+      internalID: 868497575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 8
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4f20bfd5e41b742addb1211d8de92b
+      internalID: 943639891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 100
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4921eeeb7e39674e90062ce9fedbc7b
+      internalID: -302957754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 106
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e7bf90b0bba744d974a2986341a968
+      internalID: 1951021761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 96
+        width: 47
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225c243c5e7473d49842993d05bb4e05
+      internalID: -743322558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84341002b1ef5374496d4811fbe477d9
+      internalID: -2026496744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_8
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 10
+        width: 37
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4111d79025842bd4d9f2498304fe62d1
+      internalID: -550857945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_9
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 10
+        width: 37
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32deccb642bc4164b96044c2d2c8264f
+      internalID: -1958255039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 195
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f0ee13b118c234aa1de8ed467b1db0
+      internalID: -1147797842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_11
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 194
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b190d7b04b50241aca914faca3e0b1
+      internalID: 696192476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 290
+        width: 96
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65191b2671442ce47baf4365610a9b7a
+      internalID: 1187908236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_13
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 241
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d150175db83dec84fa0dbebb9cbb18c1
+      internalID: 1241469288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 242
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805f88dff846fb244917852e53f2b1d5
+      internalID: -1682567594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_15
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 246
+        width: 44
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a8e2e33bd3836459a691594a23b2c3
+      internalID: -65547656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_16
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 290
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c74e8ca86c64145b9837f463520076
+      internalID: 1631384752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_17
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 241
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258f42deeb68697458636db058257005
+      internalID: -444123384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 240
+        width: 48
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376a57507aa3ad04ca4e92f9fd725ad9
+      internalID: 71666739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93fe3bbd2cf64d489087c3a95db74c1
+      internalID: 1660051986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 528
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bfd2c7eec2584499cf15e06c9a8230
+      internalID: -708571761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 576
+        width: 84
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7309fe842350d1441b8e3f6f2a56b4f7
+      internalID: 959206310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_22
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 528
+        width: 84
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e91845f593187c42800bea3e4d8aa3c
+      internalID: 1234968675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 84
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2f8cc22f8ca93488bf86a6ca15733a
+      internalID: -1639987494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_24
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 432
+        width: 84
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95e049c106977b469203b0f0d6afaca
+      internalID: 802457981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 721
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173dbae211d208b469cb6132c1f73455
+      internalID: -1825565250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 721
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34129fe391d105f47812a657cb461f46
+      internalID: 1169427921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 721
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b231ca9c78e7d9542b678fa1ee18a9e6
+      internalID: -1514536292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_28
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 721
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee276e53d14e56b49aabe95afb3d91fb
+      internalID: 928978129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_29
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 625
+        width: 17
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e452313a1411ab47b16f185e56c3e3e
+      internalID: 347663222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 625
+        width: 17
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e576961245f444b9074516630bd183
+      internalID: -1313226300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 436
+        width: 31
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077d5b7aa6b700e4c95cc589d0f516e1
+      internalID: 1437079355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_32
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 436
+        width: 31
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089923e4d54e428459c7532a6fa34909
+      internalID: -412827702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 528
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.50873023, y: 0.48908743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4e4a737f4b3b943a1b1fa1dedbdb3a
+      internalID: 338046838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_34
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 546
+        width: 32
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98281e23d6a962d41b114bfffcac3362
+      internalID: 968902330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_35
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 528
+        width: 32
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72a30cc6f3f2d543b0f365a23fcacf9
+      internalID: -2107463127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d25cbaaf46ff01469dce62e99e61089
+      internalID: 1345575126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_37
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e349f2aa6c212944abbcf7083cbdbac9
+      internalID: -1058281519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12ef8c479e58b44f8070ac0ff3e199c
+      internalID: 2026331465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_39
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 720
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9c489aa97634e4e833ec437337acd4
+      internalID: 575614200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_40
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 673
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf410a083a992a43b713aab55ddcb5d
+      internalID: 809328237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_41
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 624
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f469021eda0d1642928219d7e461dfb
+      internalID: 1408939769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_42
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006846ce45485284b962110beafae022
+      internalID: 1072168061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_43
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d2044f873f43b479eb2f25dd9ffc21
+      internalID: -1363859536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_44
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bfa7dbadbdcdc40876ee6706edd947
+      internalID: -397820021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_45
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 624
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbb379d228f00946b31cc09e3842f0a
+      internalID: 1532030894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_46
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 672
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588496c3a7338864caee8e6e5f6f08c3
+      internalID: -1457412158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_47
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 720
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a79b12515218814e9c22c0fab040ca8
+      internalID: 484521075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_48
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 577
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b284c00e8e916b49b1e29be5f86bf6c
+      internalID: -631652160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFantasyHomestead_Inside_B_49
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 577
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8f4f9c14b7a9e4988b6cb578ada755
+      internalID: 1608872766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PixelFantasyHomestead_Inside_B_0: -959416950
+      PixelFantasyHomestead_Inside_B_1: -1216739232
+      PixelFantasyHomestead_Inside_B_10: -1147797842
+      PixelFantasyHomestead_Inside_B_11: 696192476
+      PixelFantasyHomestead_Inside_B_12: 1187908236
+      PixelFantasyHomestead_Inside_B_13: 1241469288
+      PixelFantasyHomestead_Inside_B_14: -1682567594
+      PixelFantasyHomestead_Inside_B_15: -65547656
+      PixelFantasyHomestead_Inside_B_16: 1631384752
+      PixelFantasyHomestead_Inside_B_17: -444123384
+      PixelFantasyHomestead_Inside_B_18: 71666739
+      PixelFantasyHomestead_Inside_B_19: 1660051986
+      PixelFantasyHomestead_Inside_B_2: 868497575
+      PixelFantasyHomestead_Inside_B_20: -708571761
+      PixelFantasyHomestead_Inside_B_21: 959206310
+      PixelFantasyHomestead_Inside_B_22: 1234968675
+      PixelFantasyHomestead_Inside_B_23: -1639987494
+      PixelFantasyHomestead_Inside_B_24: 802457981
+      PixelFantasyHomestead_Inside_B_25: -1825565250
+      PixelFantasyHomestead_Inside_B_26: 1169427921
+      PixelFantasyHomestead_Inside_B_27: -1514536292
+      PixelFantasyHomestead_Inside_B_28: 928978129
+      PixelFantasyHomestead_Inside_B_29: 347663222
+      PixelFantasyHomestead_Inside_B_3: 943639891
+      PixelFantasyHomestead_Inside_B_30: -1313226300
+      PixelFantasyHomestead_Inside_B_31: 1437079355
+      PixelFantasyHomestead_Inside_B_32: -412827702
+      PixelFantasyHomestead_Inside_B_33: 338046838
+      PixelFantasyHomestead_Inside_B_34: 968902330
+      PixelFantasyHomestead_Inside_B_35: -2107463127
+      PixelFantasyHomestead_Inside_B_36: 1345575126
+      PixelFantasyHomestead_Inside_B_37: -1058281519
+      PixelFantasyHomestead_Inside_B_38: 2026331465
+      PixelFantasyHomestead_Inside_B_39: 575614200
+      PixelFantasyHomestead_Inside_B_4: -302957754
+      PixelFantasyHomestead_Inside_B_40: 809328237
+      PixelFantasyHomestead_Inside_B_41: 1408939769
+      PixelFantasyHomestead_Inside_B_42: 1072168061
+      PixelFantasyHomestead_Inside_B_43: -1363859536
+      PixelFantasyHomestead_Inside_B_44: -397820021
+      PixelFantasyHomestead_Inside_B_45: 1532030894
+      PixelFantasyHomestead_Inside_B_46: -1457412158
+      PixelFantasyHomestead_Inside_B_47: 484521075
+      PixelFantasyHomestead_Inside_B_48: -631652160
+      PixelFantasyHomestead_Inside_B_49: 1608872766
+      PixelFantasyHomestead_Inside_B_5: 1951021761
+      PixelFantasyHomestead_Inside_B_6: -743322558
+      PixelFantasyHomestead_Inside_B_7: -2026496744
+      PixelFantasyHomestead_Inside_B_8: -550857945
+      PixelFantasyHomestead_Inside_B_9: -1958255039
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
