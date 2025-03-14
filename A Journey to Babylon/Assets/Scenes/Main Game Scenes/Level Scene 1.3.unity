@@ -908,7 +908,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Conversation to Innkeeper
+  conversation: The Coin for a Room
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -5056,7 +5056,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Conversation to Merchant
+  conversation: Late Night Trading
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -8641,7 +8641,7 @@ MonoBehaviour:
   barkConversation: 
   barkEntryID: -1
   barkEntryTitle: 
-  barkText: 'Autumn Village '
+  barkText: Autumn's Rest
   barkTextSequence: 
   barker: {fileID: 0}
   barkTarget: {fileID: 0}
@@ -9411,7 +9411,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Conversation to OutpostGuard
+  conversation: Opening the Rift
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
