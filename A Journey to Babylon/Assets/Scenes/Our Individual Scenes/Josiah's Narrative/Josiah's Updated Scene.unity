@@ -153,6 +153,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AudioPlayer: {fileID: 559915823}
   MusicPlayer: {fileID: 0}
+  Walk: {fileID: 8300000, guid: 5799109e817d3704889f0499d06a23be, type: 3}
+  Slice: {fileID: 0}
 --- !u!4 &77656146
 Transform:
   m_ObjectHideFlags: 0
