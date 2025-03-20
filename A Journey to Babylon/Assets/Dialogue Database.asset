@@ -3448,7 +3448,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: I have to stay here and make sure any others like you
+        value: I have to stay here and make sure any others like you make it to the
+          village safely.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -3466,65 +3467,6 @@ MonoBehaviour:
       - originConversationID: 6
         originDialogueID: 16
         destinationConversationID: 6
-        destinationDialogueID: 17
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 68.54451
-        y: 842.6667
-        width: 160
-        height: 30
-    - id: 17
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Picture
-        value: '[]'
-        type: 0
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 4
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: make it to the village safely.
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 6
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 6
-        originDialogueID: 17
-        destinationConversationID: 6
         destinationDialogueID: 18
         isConnector: 0
         priority: 2
@@ -3536,7 +3478,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 68.54451
-        y: 892.6667
+        y: 865.85504
         width: 160
         height: 30
     - id: 18
@@ -4301,8 +4243,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 30.241997, y: 121.519875}
-    canvasZoom: 1.008999
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.5175
   - id: 7
     fields:
     - title: Title

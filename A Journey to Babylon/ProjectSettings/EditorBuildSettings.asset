@@ -26,5 +26,17 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Our Individual Scenes/Fish's Stuff/MainMenu.unity
     guid: f4211f7bec8a1114088dc320362305e2
+  - enabled: 1
+    path: Assets/Scenes/Main Game Scenes/Intro Cutscene Scenes/Intro Cutscene.unity
+    guid: 69432db4bb7559f4db485b0260bfdd52
+  - enabled: 1
+    path: Assets/Scenes/Main Game Scenes/Intro Cutscene Scenes/OpeningTheRift.unity
+    guid: 45e2a4caefd7dc240bad3b3c87f71a9d
+  - enabled: 1
+    path: Assets/Scenes/Main Game Scenes/Intro Cutscene Scenes/TitleCard.unity
+    guid: bec46bb8eec2f174da25cfaafe8e9cbc
+  - enabled: 1
+    path: Assets/Scenes/Main Game Scenes/Final Main Scene.unity
+    guid: 67df54abfd40e0441aadfeb0675b02b8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: c6a7ded88370ab041b4657bec09f8ade, type: 3}
