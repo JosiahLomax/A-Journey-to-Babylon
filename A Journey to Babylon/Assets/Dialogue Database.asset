@@ -5915,7 +5915,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 'you could head over to Merchant''s Market. '
+        value: 'you could head over to Mand''s Market. '
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -7895,8 +7895,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 2520.3857}
-    canvasZoom: 1.02
+    canvasScrollPosition: {x: 96.502594, y: 773.19476}
+    canvasZoom: 0.6744999
   - id: 8
     fields:
     - title: Title
